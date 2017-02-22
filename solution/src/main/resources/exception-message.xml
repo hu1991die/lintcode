@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exception-message>
+<!-- 
+	code编码命名规则：
+	00XX：项目级系统错误
+  		用户验证问题
+	90XX：系统级错误(与项目无关)
+	10XX：学习模块
+  		10XX：课程
+	20XX：培训模块
+  		20XX：班级
+	30XX：人才模块
+  		30?：个人中心
+	40XX：知识模块
+  		40XX：知识库
+  		41XX：爱问
+	50XX：系统模块002
+  		50?：反馈
+	60XX：考试模块
+	70XX:社区模块
+	80XX:调研模块
+	90XX:新闻模块
+	91XX:专题模块
+	92XX:直播模块
+	
+	这里还要考虑编码对应常量名
+ -->
+ 
+ 	<!-- 项目级别消息 -->
+	<!-- 系统模块  -->
+	<message code="0000"  msg="操作成功"/>
+	<message code="0001"  msg="参数格式不正确"/>
+	<message code="0002"  msg="系统繁忙，请稍后再试！"/>
+	<message code="0003"  msg="未登录"/>
+	<message code="0004"  msg="请填写内容"/>
+	<message code="0005"  msg="体验度不能为空"/>
+	<message code="0006"  msg="调用webservice异常"/>
+	<message code="0007"  msg="首页数据加载异常"/>
+	<message code="0008"  msg="广告id不能为空"/>
+	<message code="0009"  msg="查询敏感词库异常"/>
+	<message code="0010"  msg="查询讲师榜列表异常"/>
+	<message code="0011"  msg="查询我的必修列表异常"/>
+	<message code="0012"  msg="查询首页最新活动列表异常"/>
+	<message code="0013"  msg="查询首页热门知识列表异常"/>
+	<message code="0014"  msg="查询推荐专题列表异常"/>
+	<message code="0015"  msg="查询推荐课程列表异常"/>
+	<message code="0016"  msg="查询首页Banner广告列表异常"/>
+	<message code="0017"  msg="加载首页布局信息异常"/>
+	<message code="0019"  msg="您输入的内容,含有敏感词汇"/>
+	<message code="0020"  msg="查询评论列表异常"/>
+	<message code="0021"  msg="发布评论失败"/>
+	<message code="0022"  msg="查询回复列表异常"/>
+	<message code="0023"  msg="添加回复失败"/>
+	<message code="0024"  msg="删除评论失败"/>
+	<message code="0025"  msg="删除回复失败"/>
+	<message code="0026"  msg="点赞失败"/>
+	<message code="0027"  msg="取消点赞失败"/>
+
+	<!-- 用户模块  -->
+	<message code="0500"  msg="请输入登录名"/>
+	<message code="0501"  msg="请输入密码"/>
+	<message code="0502"  msg="该用户已过期"/>
+	<message code="0503"  msg="该用户已被禁用"/>
+	<message code="0504"  msg="用户被迫下线"/>
+	<message code="0505"  msg="用户消息ID不能为空"/>
+	<message code="0506"  msg="编辑个人信息失败"/>
+	<message code="0507"  msg="该企业不存在"/>
+	<message code="0508"  msg="当前已超出最大在线人数限制"/>
+	<message code="0509"  msg="请填写手机号"/>
+	<message code="0510"  msg="验证码已失效，请重新获取"/>
+	<message code="0511"  msg="查询用户异常"/>
+	<message code="0512"  msg="用户不存在"/>
+	<message code="0513"  msg="密码错误"/>
+	<message code="0514"  msg="请填写机构名"/>
+	<message code="0515"  msg="您输入的手机号不存在"/>
+	<message code="0516"  msg="该手机号已被使用"/>
+	<message code="0517"  msg="验证码错误，请重新输入"/>
+	<message code="0518"  msg="请填写验证码"/>
+	<message code="0519"  msg="请输入邮箱"/>
+	<message code="0520"  msg="修改手机号失败"/>
+	<message code="0521"  msg="修改邮箱失败"/>
+	<message code="0522"  msg="修改个人简介信息失败"/>
+	<message code="0523"  msg="该邮箱已被使用"/>
+	<message code="0524"  msg="重设用户密码失败"/>
+	<message code="0525"  msg="用户登录失败"/>
+	<message code="0526"  msg="请输入机构ID"/>
+	<message code="0527"  msg="该账号不存在"/>
+	<message code="0528"  msg="找回密码失败"/>
+
+
+	<!-- 课程模块 -->
+	<message code="1000"  msg="查询目录异常"></message>
+	<message code="1001"  msg="查询课程异常"></message>
+	<message code="1003"  msg="课程id不能为空"></message>
+	<message code="1004"  msg="查询类型不能为空"></message>
+	<message code="1005"  msg="查询课程评论异常"></message>
+	<message code="1006"  msg="查询评论回复异常"></message>
+	<message code="1007"  msg="评论id不能为空"></message>
+	<message code="1009"  msg="查询课件章节异常"></message>
+	<message code="1010"  msg="内容不能为空"></message>
+	<message code="1012"  msg="对不起，您没有权限学习该课程"></message>
+	<message code="1014"  msg="操作类型不能为空"></message>
+	<message code="1015"  msg="笔记id不能为空"></message>
+	<message code="1016"  msg="课程评分失败"></message>
+	<message code="1017"  msg="修改课程笔记异常"></message>
+	<message code="1018"  msg="添加课程笔记异常"></message>
+	<message code="1019"  msg="查询课程笔记异常"></message>
+	<message code="1020"  msg="课程评论异常"></message>
+	<message code="1021"  msg="删除课程笔记异常"></message>
+	<message code="1022"  msg="评论回复异常"></message>
+	<message code="1023"  msg="课程收藏/取消收藏异常"></message>
+	<message code="1024"  msg="已注册过该课程，不能重复注册"></message>
+	<message code="1025"  msg="课件id不能为空"></message>
+	<message code="1026"  msg="章节id不能为空"></message>
+	<message code="1027"  msg="对不起，该课程不存在或已被删除"></message>
+	<message code="1028"  msg="您还未学习该课程，请学习课程后评分，谢谢"></message>
+	<message code="1029"  msg="注册失败"></message>
+	<message code="1030"  msg="对不起，该课程暂未发布"></message>
+	<message code="1031"  msg="对不起，该课程已被取消发布"></message>
+	<message code="1032"  msg="对不起，该课程暂已下架"></message>
+
+	<!-- 培训模块 -->
+	<message code="2000"  msg="查询培训班级异常"></message>
+	<message code="2002"  msg="id不能为空"></message>
+	<message code="2003"  msg="活动id不能为空"></message>
+	<message code="2004"  msg="教师id不能为空"></message>
+	<message code="2005"  msg="调研id不能为空"></message>
+	<message code="2007"  msg="查询讲师异常"></message>
+	<message code="2008"  msg="确认报名失败"></message>
+	<message code="2010"  msg="查询培训日程失败"></message>
+	<message code="2011"  msg="业务id不能为空"></message>
+	<message code="2012"  msg="类型不能为空"></message>
+	<message code="2013"  msg="问卷不存在"></message>
+	<message code="2014"  msg="评估id不能为空"></message>
+	<message code="2015"  msg="问卷id不能为空"></message>
+	<message code="2016"  msg="对不起，该班级不存在或已被删除"></message>
+	<message code="2017"  msg="对不起，您没有权限报名该班级"></message>
+	<message code="2018"  msg="对不起，该班级暂未发布"></message>
+	<message code="2019"  msg="对不起，该班级已被取消发布"></message>
+
+	<!--  考试模块（包括课程考试）  -->
+	<message code="3000"  msg="考试ID不能为空"></message>
+	<message code="3002"  msg="查询考试列表异常"></message>
+	<message code="3003"  msg="考试报名失败"></message>
+	<message code="3004"  msg="对不起，该考试不存在或者已被删除"></message>
+	<message code="3006"  msg="找不到该考试的相关报名信息"></message>
+	<message code="3007"  msg="报名已被拒绝，无法取消"></message>
+	<message code="3008"  msg="报名申请通过,无法取消"></message>
+	<message code="3009"  msg="试卷id不能为空"></message>
+	<message code="3010"  msg="试卷答案不能为空"></message>
+	<message code="3011"  msg="对不起，您没有权限报名该考试"></message>
+	<message code="3012"  msg="对不起，暂无相关考试结果信息"></message>
+	<message code="3013"  msg="考试结果ID不能为空"></message>
+	<message code="3014"  msg="对不起，该考试问卷已被取消发布"></message>
+	<message code="3015"  msg="考试未注册！"></message>
+
+	<!-- 知识库模块 -->
+	<message code="4000" msg="查询知识库目录异常"></message>
+	<message code="4001" msg="查询知识异常"></message>
+	<message code="4003" msg="知识id不能为空"></message>
+	<message code="4004" msg="评论id不能为空"></message>
+	<message code="4005" msg="回复内容不能为空"></message>
+	<message code="4006" msg="评论内容不能为空"></message>
+	<message code="4007" msg="更新知识异常"></message>
+	<message code="4008" msg="知识类别不能为空"></message>
+	<message code="4009" msg="知识收藏/取消收藏异常"></message>
+	<message code="4010" msg="知识下载异常"></message>
+	<message code="4011" msg="对不起，该知识不存在或已被删除"></message>
+	<message code="4012" msg="对不起，您没有权限查看该知识"></message>
+	<message code="4013" msg="对不起，该知识暂未发布"></message>
+
+	<!-- 爱问模块 -->
+	<message code="4100" msg="查询问题异常"></message>
+	<message code="4102" msg="问题id不能为空"></message>
+	<message code="4103" msg="增加问题答案异常"></message>
+	<message code="4104" msg="答案内容不能为空"></message>
+	<message code="4105" msg="增加问题异常"></message>
+	<message code="4107" msg="问题内容不能为空"></message>
+	<message code="4108" msg="答案id不能为空"></message>
+	<message code="4111" msg="设置为最佳答案异常"></message>
+	<message code="4112" msg="更新问题异常"></message>
+	<message code="4114" msg="更新问题回答数异常"></message>
+	<message code="4115" msg="收藏类型不能为空"></message>
+	<message code="4116" msg="查询爱问标签异常"></message>
+	<message code="4117" msg="问题收藏异常"></message>
+	<message code="4118" msg="问题回复异常"></message>
+	<message code="4119" msg="问题发布失败"></message>
+	<message code="4120" msg="上传问题附件失败"></message>
+	<message code="4121" msg="查询问题回复列表异常"></message>
+	<message code="4122" msg="关闭问题异常"></message>
+	<message code="4123" msg="该问题已删除"></message>
+
+	<!--  学习路径模块 -->
+	<message code="5000" msg="查询评论列表异常"></message>
+	<message code="5001" msg="查询论回复列表异常"></message>
+	<message code="5002" msg="发表评论异常"></message>
+	<message code="5003" msg="评论回复异常"></message>
+	<message code="5004" msg="路径id不能为空"></message>
+	<message code="5005" msg="内容不能为空"></message>
+	<message code="5006" msg="评论ID不能为空"></message>
+	<message code="5011" msg="查询简介异常"></message>
+	<message code="5012"  msg="您还未学习该路径,请学习后评分"></message>
+	<message code="5013"  msg="路径评分失败"></message>
+	<message code="5014"  msg="查询学习路径列表异常"></message>
+	<message code="5015"  msg="查询路径详情异常"></message>
+	<message code="5016"  msg="对不起，该路径不存在或已被删除"></message>
+	<message code="5017"  msg="对不起，您没有权限学习该路径"></message>
+	<message code="5018"  msg="对不起，该学习路径暂未发布"></message>
+	<message code="5019"  msg="对不起，该学习路径已被取消发布"></message>
+
+	<!--  问吧模块 -->
+	<message code="6000" msg="请输入标题"></message>
+	<message code="6001" msg="举报失败"></message>
+	<message code="6002" msg="请选择问题或者分享"></message>
+	<message code="6003" msg="请选择话题"></message>
+	<message code="6004" msg="请选择专家"></message>
+	<message code="6005" msg="请选择业务"></message>
+	<message code="6006" msg="请指定举报对象"></message>
+	<message code="6007" msg="请选择举报类型"></message>
+	<message code="6008" msg="请选择讨论"></message>
+	<message code="6009" msg="推荐话题异常"></message>
+	<message code="6010" msg="查询动态列表异常"></message>
+	<message code="6011" msg="查询专家列表异常"></message>
+	<message code="6012" msg="查询话题分类列表异常"></message>
+	<message code="6013" msg=" 查询话题列表异常"></message>
+	<message code="6014" msg="查询专家列表异常"></message>
+	<message code="6015" msg="查询提问或者专家分享列表异常"></message>
+	<message code="6016" msg="更多模块加载异常"></message>
+	<message code="6017" msg="查询问题或分享下讨论列表异常"></message>
+	<message code="6018" msg="查询讨论详情异常"></message>
+	<message code="6019" msg="查询讨论回复列表异常"></message>
+	<message code="6020" msg="查询讨论回复详情列表异常"></message>
+	<message code="6021" msg=" 查询话题最新动态列表异常"></message>
+	<message code="6022" msg="查询话题热门问题列表异常"></message>
+	<message code="6023" msg="查询话题专家分享列表异常"></message>
+	<message code="6024" msg="查询话题等待回答问题列表异常"></message>
+	<message code="6025" msg="查询专家详情异常"></message>
+	<message code="6026" msg="查询专家回答列表异常"></message>
+	<message code="6027" msg="查询专家分享列表异常"></message>
+	<message code="6028" msg="查询我的话题列表异常"></message>
+	<message code="6029" msg="查询我的收藏的讨论列表异常"></message>
+	<message code="6030" msg="查询我的提问列表异常"></message>
+	<message code="6031" msg="查询我的消息异常"></message>
+	<message code="6033" msg="查询我关注的内容列表异常"></message>
+	<message code="6034" msg="查询我关注的专家列表异常"></message>
+	<message code="6035" msg="查询关注或点赞用户列表异常"></message>
+	<message code="6036" msg="进入推荐专家和话题列表异常"></message>
+	<message code="6037" msg="搜索话题异常"></message>
+	<message code="6038" msg="随机推荐话题异常"></message>
+	<message code="6039" msg="查询问题异常"></message>
+	<message code="6040" msg="查询问题异常"></message>
+	<message code="6041" msg="搜索内容异常"></message>
+	<message code="6042" msg="该内容已被删除"></message>
+	<message code="6043" msg="该内容已不存在"></message>
+	<message code="6044" msg="专家已被冻结"></message>
+	<message code="6045" msg="专家已被解雇"></message>
+
+	<!--  社区模块   -->
+	<message code="7000" msg="查询社区标签异常"></message>
+	<message code="7002" msg="查询社区异常"></message>
+	<message code="7004" msg="查询社区成员身份异常"></message>
+	<message code="7005" msg="查询社区详情异常"></message>
+	<message code="7006" msg="查询是否有新用户申请加入社区异常"></message>
+	<message code="7007" msg="用户申请加入社区失败"></message>
+	<message code="7008" msg="查询社区成员列表异常"></message>
+	<message code="7009" msg="查询社区待审核成员列表异常"></message>
+	<message code="7010" msg="社区成员审核失败"></message>
+	<message code="7011" msg="退出社区异常"></message>
+	<message code="7012" msg="关闭社区异常"></message>
+
+	<message code="7030" msg="查询说说列表异常"></message>
+	<message code="7031" msg="说说评论失败"></message>
+	<message code="7032" msg="说说不存在或已被删除"></message>
+	<message code="7033" msg="评论回复失败"></message>
+	<message code="7034" msg="该条评论或回复不存在或已被删除"></message>
+	<message code="7035" msg="查询转发社区列表异常"></message>
+	<message code="7036" msg="转发说说失败"></message>
+	<message code="7037" msg="说说赞/取消赞失败"></message>
+	<message code="7038" msg="发表说说失败"></message>
+	<message code="7039" msg="收藏/取消收藏失败"></message>
+	<message code="7040" msg="置顶/取消置顶失败"></message>
+	<message code="7041" msg="社区附件上传失败"></message>
+	
+	<message code="7060"  msg="社区id不能为空"></message>
+	<message code="7061"  msg="说说id不能为空"></message>
+	<message code="7062"  msg="内容不能为空"></message>
+	<message code="7063"  msg="被回复id不能为空"></message>
+	<message code="7064"  msg="被回复人id不能为空"></message>
+	<message code="7065"  msg="转发社区的ids不能为空"></message>
+	<message code="7066"  msg="类别不能为空"></message>
+	<message code="7068"  msg="回复id不能为空"></message>
+	<message code="7069"  msg="评论id不能为空"></message>
+	
+	<!--  调研模块   -->
+	<message code="8000" msg="列表查询的类型不能为空"></message>
+	<message code="8001" msg="调研列表查询异常"></message>
+	<message code="8002" msg="调研ID不能为空"></message>
+	<message code="8004" msg="问卷答案不能为空"></message>
+	<message code="8006" msg="该调研问卷不存在或者已被删除"></message>
+	<message code="8009" msg="查询类型不能为空"></message>
+	
+	<message code="8022" msg="ids不能为空"></message>
+	<message code="8023" msg="audit_type不能为空"></message>
+	<message code="8024" msg="对不起，您没有权限参与该调研"></message>
+	<message code="8025" msg="查询调研详情失败"></message>
+	<message code="8026" msg="对不起，该调研问卷暂未发布"></message>
+
+	<!-- 新闻模块 -->
+	<message code="9000" msg="查询新闻列表异常"></message>
+	<message code="9001" msg="新闻id不能为空"></message>
+	<message code="9002" msg="更新新闻浏览数异常"></message>
+	
+	<!-- 专题模块 -->
+	<message code="9100" msg="查询专题列表异常"></message>
+	<message code="9101" msg="专题id不能为空"></message>
+	<message code="9102" msg="专题描述列表异常"></message>
+	<message code="9103" msg="专题点击量增加异常"></message>
+	<message code="9104" msg="对不起，该专题不存在或已被删除"></message>
+	<message code="9105" msg="对不起，该专题暂已被取消发布"></message>
+
+	<!-- 直播模块 -->
+	<message code="9201" msg="查询直播列表异常"></message>
+	<message code="9202" msg="直播id不能为空"></message>
+	<message code="9203" msg="查询直播异常"></message>
+	<message code="9204" msg="查询直播讲师异常"></message>
+	<message code="9205" msg="对不起，您没有权限进入该直播"></message>
+	<message code="9206" msg="对不起，该直播不存在或已被删除"></message>
+
+	<!-- 积分商城模块 -->
+	<message code="10000" msg="查询商品失败"></message>
+	<message code="10001" msg="商品添加评论失败"></message>
+	<message code="10002" msg="商品评论回复失败"></message>
+	<message code="10003" msg="商品ID不能为空"></message>
+	<message code="10004" msg="积分不足"></message>
+	<message code="10005" msg="库存不足"></message>
+	<message code="10006" msg="删除地址失败"></message>
+	<message code="10007" msg="增加地址失败"></message>
+	<message code="10008" msg="修改地址失败"></message>
+	<message code="10009" msg="请填写收货地址"></message>
+	<message code="10010" msg="请填写收货姓名"></message>
+	<message code="10011" msg="请填写邮编"></message>
+	<message code="10012" msg="地址ID不能为空"></message>
+	<message code="10013" msg="操作类型不允许为空"></message>
+	<message code="10014" msg="请输入验证码"></message>
+	<message code="10015" msg="请输入支付密码"></message>
+	<message code="10016" msg="支付密码错误"></message>
+	<message code="10017" msg="商品积分不能为空"></message>
+	<message code="10018" msg="库存不允许为空"></message>
+	<message code="10019" msg="配送方式不允许为空"></message>
+	<message code="10020" msg="商品名字不能为空"></message>
+	<message code="10021" msg="订单号不能为空"></message>
+	<message code="10022" msg="加载我的订单失败"></message>
+	<message code="10023" msg="设置或修改支付密码失败"></message>
+	<message code="10024" msg="商品已下架"></message>
+	<message code="10025" msg="该手机号码已经被设置过支付密码"></message>
+	<message code="10026" msg="商品已删除"></message>
+	<message code="10027" msg="您还没有设置支付密码"></message>
+
+	<!-- 活动模块 -->
+	<message code="10100" msg="查询列表异常"></message>
+	<message code="10101" msg="查询Banner活动列表异常"></message>
+	<message code="10102" msg="查询活动列表异常"></message>
+</exception-message>

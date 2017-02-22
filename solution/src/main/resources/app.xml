@@ -1,0 +1,2064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">知学云</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 公用字符串 -->
+
+
+    <!-- 公共的加载的文字 -->
+    <string name="common_progressbar_loading">加载中&#046;&#046;&#046;</string>
+    <!--<string name="common__video_progressbar_loading">正在玩命加载视频中&#046;&#046;&#046;</string>-->
+
+
+    <!-- 公用字符串 -->
+    <string name="commmon_networking">联网</string>
+    <string name="common_Off_the_net">断网</string>
+    <string name="common_network_wrong">当前网络不可用，请检查你的网络设置</string>
+    <string name="common_request_exception">请求失败</string>
+    <string name="common_app_exit_hint">再按一次退出程序</string>
+    <string name="common_app_new_version">发现新版本</string>
+    <string name="common_app_new_version_ignore">稍后再说</string>
+    <string name="common_app_new_version_update">立即更新</string>
+    <string name="common_score_one">1星 &#160;&#160;&#160;（☆）</string>
+    <string name="common_score_two">2星&#160;&#160;&#160;（☆☆）</string>
+    <string name="common_score_three">3星 &#160;&#160;&#160;（☆☆☆）</string>
+    <string name="common_score_four">4星 &#160;&#160;&#160;（☆☆☆☆）</string>
+    <string name="common_score_five">5星&#160;&#160;&#160;（☆☆☆☆☆）</string>
+    <string name="common_commond_not_empty_hint">输入内容不能为空！</string>
+    <string name="common_superlong_number_hint">输入请控制在%s字以内！</string>
+    <string name="common_pause_no">暂无</string>
+    <string name="common_pause_no_desc">暂无描述</string>
+    <string name="common_all">全部</string>
+    <string name="common_dir">目录</string>
+    <string name="common_email_wrong">邮箱格式不正确，请重新输入</string>
+    <string name="common_rp_send">重新获取</string>
+    <string name="common_refresh_ui_hint">正在更新界面...</string>
+    <string name="commont_time_empty_hint">暂无</string>
+
+    <!-- PDF -->
+    <string name="outline_title">Table of Contents</string>
+    <string name="print">Print</string>
+    <string name="desc_shrinkup">收起</string>
+    <string name="desc_spread">全文</string>
+    <string name="desc_more">详情</string>
+    <string name="common_center_popup_title_txt">提示</string>
+    <string name="common_center_popup_cancle_txt">取消</string>
+    <string name="common_center_popup_sure_txt">确定</string>
+    <string name="common_center_popup_continue_txt">继续</string>
+
+    <!-- 登录 -->
+    <string name="main_login_agency_txt">企业名称</string>
+    <string name="main_login_agency_name_hint">请输入企业名称</string>
+    <string name="main_login_user_name_txt">账&#160;&#160;&#160;&#160;&#160;&#160;&#160; 号</string>
+    <string name="main_login_user_name_hint">账号/邮箱/手机号</string>
+    <string name="main_login_user_pwd_txt">密&#160;&#160;&#160;&#160;&#160;&#160;&#160; 码</string>
+    <string name="main_login_user_pwd_hint">请输入密码</string>
+    <string name="main_login_btn_txt">登&#160;&#160;&#160;录</string>
+    <string name="mian_login_company_name_txt">深圳知学云科技有限公司</string>
+    <string name="mian_login_company_line_txt">400-656-8595</string>
+    <string name="main_login_load_config_txt">获取配置信息...</string>
+    <string name="main_login_loading_txt">加载中...</string>
+    <string name="mian_login_config_failure">加载配置信息失败</string>
+    <string name="mian_login_load_skin_hint">数据同步中(0%)...</string>
+    <string name="mian_login_load_skin_fail_try_hint">重试</string>
+    <string name="mian_login_load_skin_fail_cancle_hint">取消</string>
+    <string name="mian_login_load_skin_fail_hint">同步数据失败！</string>
+    <string name="mian_login_unlogin_hint">退出登录中...</string>
+    <string name="main_login_findpwd_bt">忘记密码</string>
+    <string name="main_regist_lab_org">机 &#160;&#160;&#160;&#160;&#160;&#160; 构</string>
+    <string name="main_regist_lab_account">账 &#160;&#160;&#160;&#160;&#160;&#160; 号</string>
+    <string name="main_regist_lab_phone">手&#160;&#160;机&#160;号&#160;码</string>
+    <string name="main_regist_lab_code">验 &#160;&#160;&#160;证 &#160;&#160;&#160;码</string>
+    <string name="main_regist_lab_newpwd">新 &#160;密 &#160;码</string>
+    <string name="main_regist_lab_pwd">密 &#160;&#160;&#160;&#160;&#160;&#160; 码</string>
+    <string name="main_find_psw_input_newpsw">输入新密码</string>
+    <string name="main_find_psw_input_email">邮箱地址</string>
+    <string name="main_find_psw_input_email_notice">系统将新密码发送至您绑定的邮箱，请注意查收</string>
+    <string name="main_find_psw_input_email_hint">请输入完整的邮箱</string>
+    <string name="main_regist_lab_repwd">确认密码</string>
+    <string name="main_regist_lab_account_hint">请输入账号</string>
+    <string name="main_regist_lab_phone_hint">请输入手机号码</string>
+    <string name="main_regist_lab_pwd_hint">请输入新密码</string>
+    <string name="main_regist_lab_repwd_hint">请再次输入密码</string>
+    <string name="main_regist_get_code">获取</string>
+    <string name="main_findpsw_get_code">获取验证码</string>
+    <string name="main_findpsw_edit_code_hint">请输入验证码</string>
+    <string name="main_regist_regist_btn">激活</string>
+    <string name="main_regist_next_code">下一步</string>
+    <string name="main_regist_writeinfo_identify">身&#160;份&#160;证</string>
+    <string name="main_regist_writeinfo_name">姓&#160;&#160;&#160;&#160;&#160;&#160;名</string>
+    <string name="main_regist_writeinfo_sex">性 &#160;&#160;&#160;&#160;&#160;&#160; 别</string>
+    <string name="main_regist_writeinfo_company_hint">请输入身份证</string>
+    <string name="main_regist_writeinfo_name_hint">请输入姓名</string>
+    <string name="main_regist_btn">下一步</string>
+    <string name="main_regist_org_empty">请输入企业名称</string>
+    <string name="main_regist_account_empty">请输入账号</string>
+    <string name="main_regist_phone_empty">请输入手机号码</string>
+    <string name="main_regist_email_empty">请输入邮箱</string>
+    <string name="main_regist_email_wrong_geshi">邮箱格式不正确，请重新输入</string>
+    <string name="main_regist_email_wrong_type">您输入的邮箱地址和绑定邮箱不一致，请重新输入</string>
+    <string name="main_regist_phone_wrong_geshi">请输入正确的手机号码</string>
+    <string name="main_regist_phone_wrong_type">您输入的手机号码和绑定手机号码不一致，请重新输入</string>
+    <string name="main_regist_vode_empty">请输入验证码</string>
+    <string name="main_regist_pwd_empty">请输入密码</string>
+    <string name="main_regist_repwd_empty">确认密码不能为空！</string>
+    <string name="main_regist_repwd_wrong">两次密码不一致！</string>
+    <string name="main_regist_vode_wrong">验证码不正确！</string>
+    <string name="main_regist_work_empty">身份证不能为空！</string>
+    <string name="main_regist_name_empty">姓名不能为空！</string>
+    <string name="main_regist_fail_hint">激活失败！</string>
+    <string name="main_regist_fail_certify_hint">身份验证失败！</string>
+    <string name="main_regist_findpwd_fail_hint">重设密码失败！</string>
+    <string name="main_regist_findpwd_sure">确定</string>
+    <string name="main_regist_pager_title">账号激活</string>
+    <string name="main_regist_findpwd_pager_title">找回密码</string>
+    <string name="main_regist_findpwd_by_phone_title">手机找回密码</string>
+    <string name="main_regist_findpwd_by_email_title">邮箱找回密码</string>
+    <string name="main_regist_findpwd_by_phone_notice">您的账号已绑定手机号码</string>
+    <string name="main_regist_findpwd_by_email_notice">您的账号已绑定邮箱</string>
+    <string name="main_findpsw_no_email_and_phone">您没有绑定邮箱或手机号码，请联系管理员找回密码</string>
+    <string name="main_regist_code_send_hint">验证码已重发，请留意手机短信！</string>
+    <string name="main_regist_code_send_notice">验证码已发送，请留意手机短信！</string>
+    <string name="main_regist_code_reset_psw_by_phone_success">设置密码成功</string>
+    <string name="main_regist_code_reset_psw_by_phone_fail">设置密码失败，请联系管理员</string>
+    <string name="main_regist_code_reset_psw_by_emial_success">发送邮件成功，请查看邮箱</string>
+    <string name="main_regist_code_reset_psw_by_emial_fail">发送邮件失败，请联系管理员</string>
+    <string name="main_regist_code_send_fail_notice">验证码发送失败，请联系管理员</string>
+    <string name="main_regist_ask_fail_hint">请求失败</string>
+    <string name="main_regist_very_code_second">%s秒后可重发</string>
+    <string name="main_regist_get_very_code">获取</string>
+    <string name="main_regist_reget_very_code">重发</string>
+    <string name="main_loading_skin_hint">正在加载皮肤资源</string>
+    <string name="main_loading_datas_hint">正在更新数据(</string>
+
+    <!-- 提示信息 -->
+    <string name="prompt_loading">加载中</string>
+    <!--<string name="prompt_empty">暂无数据.</string>-->
+    <string name="prompt_empty"></string>
+    <!--<string name="prompt_serivce">加载失败,点击重试.</string>-->
+    <string name="prompt_serivce"></string>
+    <!-- 请求提示 -->
+    <string name="request_timeout_error">请求超时</string>
+    <string name="request_unknown_error">请求失败</string>
+    <string name="request_cancel_error">取消请求</string>
+    <string name="temporary_is_empty">暂无</string>
+    <string name="unknown">未知</string>
+    <string name="request_fail_error">请求失败</string>
+    <string name="cannot_emoji_input">不支持输入表情!</string>
+
+    <!-- 主界面 -->
+    <string name="main_fragment_class_packname">com.netschina.mlds.business.main.view</string>
+    <string name="main_fragment_class_main">HomeFragment</string>
+    <string name="main_fragment_class_my">PersonFragment</string>
+    <string name="main_fragment_tag_main">MAIN_MAIN</string>
+    <string name="main_fragment_tag_my">MAIN_MY</string>
+
+    <string name="main_tab_main">首页</string>
+    <string name="main_tab_course">课程</string>
+    <string name="main_tab_question">问道</string>
+    <string name="main_tab_my">我的</string>
+
+
+    <string name="main_home_search">搜索你需要的</string>
+    <string name="main_home_recommend_topic">推荐专题</string>
+    <string name="main_home_recommend_course">推荐课程</string>
+    <string name="main_home_recommend_train">最新活动</string>
+    <string name="main_home_recommend_doc">热门知识</string>
+    <string name="main_home_recommend_obli">我的必修</string>
+    <string name="main_home_recommend_lecture">讲师榜</string>
+    <string name="main_home_recommend_more">查看更多</string>
+
+    <!-- 左滑菜单 start -->
+    <string name="main_menu_home">首页</string>
+    <string name="main_menu_news">新闻</string>
+    <string name="main_menu_course">课程</string>
+    <string name="main_menu_topic">专题</string>
+    <string name="main_menu_path">学习路径</string>
+    <string name="main_menu_train">培训</string>
+    <string name="main_menu_exam">考试</string>
+    <string name="main_menu_doc">知识</string>
+    <string name="main_menu_ask">爱问</string>
+    <string name="main_menu_community">社区</string>
+    <string name="main_menu_survey">调研</string>
+    <string name="main_menu_live">直播</string>
+    <string name="main_menu_message">消息</string>
+    <string name="main_menu_setting">设置</string>
+    <string name="main_menu_question">问吧</string>
+    <string name="main_menu_mall">积分商城</string>
+
+    <!-- 模块类名 start -->
+    <string name="main_fragment_class_home">com.netschina.mlds.business.main.view.HomeFragment</string>
+    <string name="main_fragment_class_news">com.netschina.mlds.business.news.view.NewsActivity</string>
+    <string name="main_fragment_class_course">com.netschina.mlds.business.course.view.CourseActivity</string>
+    <string name="main_fragment_class_topic">com.netschina.mlds.business.topic.view.TopicActivity</string>
+    <string name="main_fragment_class_path">com.netschina.mlds.business.path.view.PathActivity</string>
+    <string name="main_fragment_class_train">com.netschina.mlds.business.train.view.TrainTabActivity</string>
+    <string name="main_fragment_class_exam">com.netschina.mlds.business.exam.view.ExamActivity</string>
+    <string name="main_fragment_class_doc">com.netschina.mlds.business.doc.view.DocActivity</string>
+    <string name="main_fragment_class_ask">com.netschina.mlds.business.ask.view.AskTabActivity</string>
+    <string name="main_fragment_class_community">com.netschina.mlds.business.community.view.CommunityTabActivity</string>
+    <string name="main_fragment_class_survey">com.netschina.mlds.business.survey.view.SurveyActivity</string>
+    <string name="main_fragment_class_live">com.netschina.mlds.business.live.view.LiveTabActivity</string>
+    <string name="main_fragment_class_message">com.netschina.mlds.business.message.view.MessageActivity</string>
+    <string name="main_fragment_class_setting">com.netschina.mlds.business.setting.view.SettingActivity</string>
+    <string name="main_fragment_class_question">com.netschina.mlds.business.question.view.main.QuestionActivity</string>
+    <string name="main_fragment_class_maket">com.netschina.mlds.business.maket.view.firstpage.MaketActivity</string>
+    <!-- 模块类名 end -->
+
+    <!-- 模块图片名 start -->
+    <string name="new_menu_news">new_menu_news</string>
+    <string name="new_menu_course">new_menu_course</string>
+    <string name="new_menu_special">new_menu_special</string>
+    <string name="new_menu_train">new_menu_train</string>
+    <string name="new_menu_live">new_menu_live</string>
+    <string name="new_menu_knowledge">new_menu_knowledge</string>
+    <string name="new_menu_test">new_menu_test</string>
+    <string name="new_menu_route">new_menu_route</string>
+    <string name="new_menu_research">new_menu_research</string>
+    <string name="new_menu_malls">new_menu_malls</string>
+    <string name="new_menu_ask">new_menu_ask</string>
+    <string name="main_home_btn_common_bg">main_home_btn_common_bg</string>
+
+    <!-- 模块图片名 start -->
+
+
+    <!-- 左滑菜单 FragmentByTag -->
+    <string name="main_menu_fragment_tag_home">home</string>
+    <string name="main_menu_fragment_tag_news">news</string>
+    <string name="main_menu_fragment_tag_course">course</string>
+    <string name="main_menu_fragment_tag_topic">topic</string>
+    <string name="main_menu_fragment_tag_path">path</string>
+    <string name="main_menu_fragment_tag_train">train</string>
+    <string name="main_menu_fragment_tag_exam">exam</string>
+    <string name="main_menu_fragment_tag_doc">doc</string>
+    <string name="main_menu_fragment_tag_ask">ask</string>
+    <string name="main_menu_fragment_tag_community">community</string>
+    <string name="main_menu_fragment_tag_survey">survey</string>
+    <string name="main_menu_fragment_tag_live">live</string>
+    <string name="main_menu_fragment_tag_message">message</string>
+    <string name="main_menu_fragment_tag_setting">setting</string>
+    <string name="main_menu_fragment_tag_menu">menu</string>
+    <string name="main_menu_fragment_tag_question">question</string>
+    <!-- 左滑菜单 end -->
+
+
+    <!-- 个人中心 start -->
+    <string name="person_model_title_name">张三</string>
+    <string name="person_model_title_course_finish">已完成</string>
+    <string name="person_model_title_course_study">未完成</string>
+    <string name="person_model_title_train_end">已结束</string>
+    <string name="person_model_title_train_singup">开班中</string>
+    <string name="person_model_title_exam_finish">已完成</string>
+    <string name="person_model_title_exam_unfinish">待考试</string>
+    <string name="person_model_title_doc_publish">发布数</string>
+    <string name="person_model_title_doc_collect">收藏数</string>
+    <string name="person_model_title_ask_ask">提问数</string>
+    <string name="person_model_title_ask_answer">回答数</string>
+    <string name="person_model_title_community_open">公开社区</string>
+    <string name="person_model_title_community_class">班级社区</string>
+    <string name="person_centrality_title">个人中心</string>
+    <string name="person_centrality_course">课程</string>
+    <string name="person_centrality_path">路径</string>
+    <string name="person_centrality_live">直播</string>
+    <string name="person_centrality_exam">考试</string>
+    <string name="person_centrality_train">培训</string>
+    <string name="person_centrality_doc">知识</string>
+    <string name="person_centrality_ask">爱问</string>
+    <string name="person_centrality_communit">社区</string>
+    <string name="person_centrality_course_complete">已完成</string>
+    <string name="person_centrality_course_complete_n">未完成</string>
+    <string name="person_centrality_path_complete">已完成</string>
+    <string name="person_centrality_path_complete_n">未完成</string>
+    <string name="person_centrality_live_join">已参加</string>
+    <string name="person_centrality_live_unjoin">未参加</string>
+    <string name="person_centrality_train_end">已结束</string>
+    <string name="person_centrality_train_end_n">开班中</string>
+    <string name="person_centrality_exam_end">已完成</string>
+    <string name="person_centrality_exam_end_n">待考试</string>
+    <string name="person_centrality_doc_send">发布数</string>
+    <string name="person_centrality_doc_collect">收藏数</string>
+    <string name="person_centrality_ask_asknum">提问数</string>
+    <string name="person_centrality_ask_answernum">回答数</string>
+    <string name="person_centrality_communit_open">公开社区</string>
+    <string name="person_centrality_commnuit_class">班级社区</string>
+    <string name="person_centrality_colloct_course_time">课时： %s</string>
+    <string name="person_centrality_colloct_course_score">学分： %s</string>
+    <string name="person_centrality_none">暂无</string>
+    <string name="person_centrality_orgName">部门：</string>
+    <string name="person_centrality_jobName">职位：</string>
+    <string name="person_centrality_userEmail">邮箱：</string>
+    <string name="person_centrality_user_phone">手机：</string>
+    <string name="person_centrality_user_introduct">简介</string>
+    <string name="person_centrality_studyScore">学分</string>
+    <string name="person_centrality_courseHour">课时</string>
+    <string name="person_centrality_levelScore">积分</string>
+    <string name="person_centrality_levelName">等级：%s</string>
+    <string name="person_centrality_collect">我的收藏</string>
+    <string name="person_centrality_offline">我的离线</string>
+    <string name="person_centrality_edit_editbut">编辑</string>
+    <string name="person_centrality_edit_mobile">您的账号已经是手机号码，不能修改！</string>
+    <string name="person_centrality_edit_emile">您的账号已经是电子邮箱，不能修改！</string>
+
+    <string name="person_centrality_edit_editbut_fail_hint">保存失败，请重新编辑</string>
+    <string name="person_centrality_edit_editbut_success_hint">保存成功</string>
+
+    <string name="person_centrality_edit_editbut_brief">编辑简介</string>
+    <string name="person_centrality_edit_editbut_brief_hint">请输入您的个人简介...</string>
+    <string name="person_centrality_edit_editbut_brief_save">保存</string>
+    <string name="person_centrality_edit_editbut_brief_save_hint_title">若返回，您编辑的简介不会保存！</string>
+    <string name="person_centrality_edit_editbut_brief_empty_hint">请输入简介内容！</string>
+    <string name="person_fragment_tag_mycollect">PERSON_COLLECT</string>
+    <string name="person_fragment_tag_myoffline">PERSON_OFFLINE</string>
+    <string name="person_collect_course_fragment_class">com.netschina.mlds.business.course.view.MyCourseBFragment</string>
+    <string name="person_collect_doc_fragment_class">com.netschina.mlds.business.doc.view.DocBFragment</string>
+    <string name="person_collect_ask_fragment_class">com.netschina.mlds.business.ask.view.AskCollectFragment</string>
+    <string name="person_collect_community_fragment_class">com.netschina.mlds.business.community.view.CommunityByAllCollectTalkFragment</string>
+    <string name="person_collect_course_fragment_tag">PERSON_COLLECT_COURSE</string>
+    <string name="person_collect_doc_fragment_tag">PERSON_DOC_COURSE</string>
+    <string name="person_collect_ask_fragment_tag">PERSON_ASK_COURSE</string>
+    <string name="person_collect_community_fragment_tag">PERSON_COMMUNITY_COURSE</string>
+    <string name="person_collect_course_fragment_title">课程</string>
+    <string name="person_collect_doc_fragment_title">知识</string>
+    <string name="person_collect_ask_fragment_title">爱问</string>
+    <string name="person_collect_community_fragment_title">说说</string>
+    <string name="train_fragment_tag_my_end">TRAIN_EDN</string>
+    <string name="train_fragment_tag_my_singup">TRAIN_SINGUP</string>
+    <string name="ask_fragment_tag_my_ask">ASK_ASK</string>
+    <string name="ask_fragment_tag_my_answer">ASK_ANSWER</string>
+    <string name="community_fragment_tag_community_open">COMMUNITY_OPEN</string>
+    <string name="community_fragment_tag_community_class">COMMUNITY_CLASS</string>
+    <string name="main_upload_success">上传成功</string>
+    <string name="person_model_title_class_hour">18</string>
+    <string name="person_model_title_credit">89</string>
+    <string name="person_model_title_integral">2108</string>
+    <string name="person_course_collection">PersonCourseFragment</string>
+    <string name="person_doc_collection">PersonDocFragment</string>
+    <!-- 个人中心 end -->
+
+    <string name="common_dialog_load_txt">加载中...</string>
+    <string name="common_dialog_clean_txt">清理中...</string>
+
+    <!-- 二维码扫描提示 -->
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="scan_failed">扫描失败</string>
+    <string name="sign_failed_please_re_scan">签到失败，请重新扫描\n二维码进行签到。</string>
+    <string name="loading_fail">加载失败</string>
+    <string name="sign_success">签到成功</string>
+    <string name="sign_error">签到失败</string>
+    <string name="have_been_signed">已签到</string>
+    <string name="qr_code_scanning">二维码扫描</string>
+    <string name="login_verify_empy_org">机构名不能为空</string>
+    <string name="login_verify_empy_user_name">账号不能为空</string>
+    <string name="login_verify_empy_pwd">密码不能为空</string>
+    <string name="login_verify_error_org">请输入正确的机构名</string>
+    <string name="pull_to_refresh_listview_prompt">已经没有更多数据了。</string>
+    <string name="update_time">"最近更新 "</string>
+
+    <!-- 设置fragment 文字 -->
+    <string name="clear_cache">清除缓存</string>
+    <string name="feedback">意见反馈</string>
+    <string name="check_updata">检查更新</string>
+    <string name="updata_password">修改密码</string>
+    <string name="qr_code">二维码</string>
+    <string name="about">关于知学云</string>
+    <string name="logout">退出登录</string>
+    <string name="re_login">重新登录</string>
+
+    <!-- 意见反馈 发送 -->
+    <string name="sending">发送中&#046;&#046;&#046;</string>
+    <string name="send">发送</string>
+    <string name="feedback_title">意见反馈</string>
+    <string name="hint_input_advice_opinion">请输入你的建议或意见</string>
+    <string name="good">很爽</string>
+    <string name="ordinary">一般</string>
+    <string name="poor">不爽</string>
+    <string name="sent_successfully">发送成功,谢谢你的反馈</string>
+    <string name="send_failed">发送失败</string>
+    <string name="feedback_content_cannot_be_empty">反馈内容不能为空</string>
+    <string name="latest_version">已是最新版本</string>
+    <string name="successful_removal">清除成功</string>
+    <string name="processing">处理中...</string>
+
+    <!-- 修改密码 -->
+    <string name="please_use_the_new_password_at_next_login">修改成功,下次登录请使用新密码</string>
+    <string name="old_password">请输入旧密码</string>
+    <string name="old_password_error">旧密码输入错误</string>
+    <string name="new_password">请输入新密码</string>
+    <string name="password_length">密码长度为6-20位</string>
+    <string name="password_confirmation">请输入确认密码</string>
+    <string name="two_password_not_match">两次密码不一致</string>
+    <string name="main_regist_pwd_fit_empty">密码必须包含数字、字母、特殊符号中的两种！</string>
+    <string name="confirmation">确认</string>
+    <string name="old_pass">旧密码&#160;&#160;&#160;</string>
+    <string name="new_pass">新密码&#160;&#160;&#160;</string>
+    <string name="new_pass_hint">由6-20位的数字，字母、符号组成</string>
+    <string name="old_pass_hint">请输入旧密码</string>
+    <string name="comfirm_pass_hint">再次填写确认</string>
+    <string name="confirmation_pass">确认密码</string>
+    <string name="find_psw_by_phone">通过绑定手机找回</string>
+    <string name="find_psw_by_email">通过绑定邮箱找回</string>
+
+    <!-- 退出登录的提示 -->
+    <string name="prompt">提示</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_exit_login">是否退出登录？</string>
+    <string name="exit_login">退出登录</string>
+    <string name="exit_login_not_receive_push_message">您确定退出吗？\n退出后，将收不到推送信息！</string>
+
+    <!-- 培训 -->
+    <string name="train_open_class">公开班级</string>
+    <string name="train_my_class">我的班级</string>
+    <string name="train_friend">班级社区</string>
+    <string name="train_my_class_tabs_sign_up">报名中</string>
+    <string name="train_my_class_tabs_check">开班中</string>
+    <string name="train_my_class_tabs_end">已结束</string>
+    <string name="train_open_class_tabs_doing">进行中</string>
+    <string name="train_open_class_tabs_back">往期回顾</string>
+    <string name="train_detail_sign_up_tab_guide">指南</string>
+    <string name="train_detail_sign_up_tab_schedule">日程</string>
+    <string name="train_detail_sign_up_tab_questionnaire">问卷</string>
+    <string name="train_detail_sign_up_tab_classmate">社区</string>
+    <string name="train_detail_sign_up_tab_title">培训班级</string>
+    <string name="train_detail_sticky_title_introduction">培训简介</string>
+    <string name="train_detail_sticky_title_lecturer_introduction">讲师简介</string>
+    <string name="train_detail_sticky_title_site_distribution">场地分布</string>
+    <string name="train_questionnaire_sticky_title_research">调研</string>
+    <string name="train_questionnaire_sticky_title_assess">评估</string>
+    <string name="train_questionnaire_sticky_title_exam">考试</string>
+    <string name="train_questionnaire_sticky_empty_research">暂无调研信息</string>
+    <string name="train_questionnaire_sticky_empty_assess">暂无评估信息</string>
+    <string name="train_questionnaire_sticky_empty_exam">暂无考试问卷</string>
+    <string name="train_questionnaire_title">问卷</string>
+    <string name="train_detail_sticky_title_help">培训帮助</string>
+    <string name="train_detail_sticky_title_registration_codes">签到二维码</string>
+    <string name="train_detail_schedule">培训日程</string>
+    <string name="train_detail_empty_lecturer">本次活动暂无讲师</string>
+    <string name="train_detail_empty_schedule">本次活动暂无日程</string>
+    <string name="train_i_want_to_register">我要报名</string>
+    <string name="sgin_up_num">已报名人数:</string>
+    <string name="train_introduction">简介</string>
+    <string name="train_status_sign_up">我要报名</string>
+    <string name="train_status_cancel_sign_up">取消报名</string>
+    <string name="train_status_confirm">确认报名</string>
+    <string name="train_status_check">待审核</string>
+    <string name="train_status_pass">已通过</string>
+    <string name="train_status_refusal">已拒绝</string>
+    <string name="train_status_give_up">已放弃</string>
+    <string name="train_status_start">开班中</string>
+    <string name="train_status_end">已结束</string>
+    <string name="train_lecturer_grade">级别：</string>
+    <string name="train_lecturer_phone">电话：</string>
+    <string name="train_lecturer_email">邮箱：</string>
+    <string name="train_lecturer_introduction">个人简介</string>
+    <string name="train_lecturer_empty_introduction">暂无讲师信息</string>
+    <string name="train_lecturer_detail">讲师详情</string>
+    <string name="train_sgin_up_errer">报名失败,稍候再试。</string>
+    <string name="tran_empty_schedule">暂时没有日程安排。</string>
+    <string name="trian_questionnaire_start_time">开始时间：</string>
+    <string name="trian_questionnaire_end_time">结束时间：</string>
+    <string name="is_reply_content">回复内容不能为空</string>
+    <string name="trian_can_not_view_shedule_detail">你还不是班级成员,不能查看日程详情</string>
+    <string name="trian_not_can_activity">班级尚未开班，无法查看详情</string>
+    <string name="trian_end_not_can_activity">班级已结束，无法查看详情</string>
+    <string name="no_sgin">请先到班级指南中进行签到，谢谢</string>
+    <string name="trian_not_data">没有对应的数据</string>
+    <string name="can_view_course_detail">该课程暂不支持手机端学习，请登录电脑学习，谢谢</string>
+    <string name="to">" 至 "</string>
+    <string name="research_not_start">开始时间未到，暂时无法填写</string>
+    <string name="research_end">此调研已结束</string>
+    <string name="assess_not_start">开始时间未到，暂时无法填写</string>
+    <string name="participate">不能参加，类型为线下评估</string>
+    <string name="exam_participate">该问卷暂不支持移动端考试</string>
+    <string name="is_registration">您已经签到</string>
+    <string name="registration">签到</string>
+    <string name="confirm_registration">已签到</string>
+    <string name="registration_failure">签到失败</string>
+    <string name="write_a_reply">写回复</string>
+    <string name="pdf">PDF页面</string>
+    <string name="speech">【面授】</string>
+    <string name="survey">【调研】</string>
+    <string name="on_line">【在线】</string>
+    <string name="other">【其它】</string>
+    <string name="empty_adrress_img">暂无场地图片</string>
+    <string name="train_confirm_sgin_up">您确定要参加该培训的报名?</string>
+    <string name="train_questionnaire_prompt_error">暂时无法评估</string>
+    <string name="train_questionnaire_prompt_not_start">调研时间未到，暂时无法参加调研</string>
+    <string name="train_questionnaire_prompt_not_start3">考试时间未到，暂时无法参加考试</string>
+    <string name="train_questionnaire_prompt_not_start2">评估时间未到，暂时无法参加评估</string>
+    <string name="train_questionnaire_prompt_overdue">已过期</string>
+    <string name="train_questionnaire_prompt_end">已完成</string>
+    <string name="train_not_community">该班级未配置社区</string>
+    <string name="train_organizational_assessment"> (组织评估)</string>
+    <string name="train_course_assessment"> (课程评估)</string>
+    <string name="train_begin_time">开始时间:</string>
+    <string name="train_end_time">结束时间:</string>
+    <string name="train_enjoy_person_number">已报名人数:</string>
+    <string name="train_train_person_number">培训人数:</string>
+    <string name="train_wait_cannot_look">待评卷中,暂时不能查看该问卷。</string>
+
+    <!--专题  -->
+    <string name="topic_course">课程</string>
+    <string name="topic_doc">知识</string>
+
+    <!-- 爱问 -->
+    <string name="ask_tab_waiting_reply">等你答</string>
+    <string name="ask_tab_complete">已解决</string>
+    <string name="ask_tab_my_question">我的问题</string>
+    <string name="ask_tab_question">我要提问</string>
+    <string name="ask_tab_collect">我收藏</string>
+    <string name="ask_tab_waiting_reply_pager_tab_new">最新</string>
+    <string name="ask_tab_waiting_reply_pager_tab_hot">最热</string>
+    <string name="ask_tab_my_question_pager_tab_new_reply">有新回答</string>
+    <string name="ask_tab_my_question_pager_tab">我的提问</string>
+    <string name="ask_tab_my_question_pager_tab_my_reply">我的回答</string>
+    <string name="ask_send_btn_txt">发送</string>
+    <string name="activity_actionbar_ask_my_questions">提问</string>
+    <string name="activity_actionbar_ask_comment_title">讨论详情</string>
+    <string name="activity_actionbar_ask_questions_title">爱问详情</string>
+    <string name="ask_questions_succes">提问成功</string>
+    <string name="wait">,请稍候。</string>
+    <string name="start_reply">点击开始回答</string>
+    <string name="continue_reply">点击继续回答</string>
+    <string name="from_fo_phone">来自手机提问</string>
+    <string name="ask_my_question">没有我的问题,<![CDATA[<font color="#77a1f3" size="17px">我要提问</font>]]></string>
+    <string name="de">的</string>
+    <string name="ask_set_best_answer">是否设置为最佳答案？</string>
+    <string name="answer">回答</string>
+    <string name="input_answer">输入回答的内容</string>
+    <string name="question_content_hint">清晰地描述问题，更快速地获得答案</string>
+    <string name="text_value">还可以输入10个字</string>
+    <string name="best_answer">最佳答案</string>
+    <string name="ask_anonymous">匿名</string>
+    <string name="ask_score">%s分</string>
+    <string name="ask_unsolved">未解决</string>
+    <string name="ask_solved">已解决</string>
+    <string name="ask_noresponse">未响应</string>
+    <string name="ask_closed">已关闭</string>
+    <string name="ask_supplement_question">补充问题: </string>
+    <string name="ask_reply">回复</string>
+    <string name="ask_reply_num">回复数</string>
+    <string name="ask_scoreless">您当前的积分不够!</string>
+    <string name="ask_fail_set_best_answer">设置最佳答案失败!</string>
+    <string name="ask_fail_answer">回答内容失败!</string>
+    <string name="ask_content_cannot_empty">内容不能为空!</string>
+    <string name="ask_nofit_emojy_input">不支持输入表情</string>
+    <string name="ask_reward_big_zero">悬赏分不能小于0!</string>
+    <string name="ask_reward_big_used_score">悬赏分不能大于可用积分!</string>
+    <string name="ask_choose_tag">请选择标签!</string>
+    <string name="ask_ask_fail">提问失败!</string>
+    <string name="ask_choosed_tag">您已经选择了该标签!</string>
+    <string name="ask_choosed_more_three">最多只能选择3个标签!</string>
+    <string name="ask_choose">关闭</string>
+    <string name="ask_supplement_question2">补充问题</string>
+    <string name="ask_collect">收藏</string>
+    <string name="ask_cancle_collect">取消收藏</string>
+    <string name="ask_answer">回答</string>
+    <string name="ask_close_fail">关闭失败</string>
+    <string name="ask_suer_colse_title">确定要关闭问题？</string>
+    <string name="ask_cancle_success_collect_hint">取消收藏成功</string>
+    <string name="ask_success_collect_hint">收藏成功</string>
+    <string name="ask_collect_hint">收藏</string>
+    <string name="ask_cancle_collect_hint">取消收藏</string>
+    <string name="ask_cancle_fail_collect_hint">取消收藏失败</string>
+    <string name="ask_fail_collect_hint">收藏失败</string>
+    <string name="ask_supplement_content_fail_hint">补充内容失败</string>
+    <string name="ask_answer_content_fail_hint">回答内容失败</string>
+    <string name="ask_content_not_empty">内容不能为空!</string>
+
+
+    <!-- 社区 -->
+    <string name="community_all">公开社区</string>
+    <string name="community_my">我的社区</string>
+    <string name="community_all_pager_dir">全部</string>
+    <string name="community_all_pager_new">最新</string>
+    <string name="community_all_pager_hot">最热</string>
+    <string name="community_my_pager_class">班级社区</string>
+    <string name="community_my_pager_open">公开社区</string>
+    <string name="community_member_pager_all">所有成员</string>
+    <string name="community_member_pager_check">待审核</string>
+    <string name="person">人</string>
+    <string name="menber_num">成员数:</string>
+    <string name="trends_num">总帖数:</string>
+    <string name="community_admin">社区管理员</string>
+    <string name="colsed_community">该社区已关闭</string>
+    <string name="apply_success">申请加入社区正在审核中，请耐心等待社区管理员审核</string>
+    <string name="apply_error">申请失败</string>
+    <string name="colse_community_dialog_txt">确认关闭社区？</string>
+    <string name="exit_community_dialog_txt">确认退出社区？</string>
+    <string name="join_community_dialog_txt">加入社区成功</string>
+    <string name="community_has_new_members">社区中有新用户申请加入，是否前去处理?</string>
+    <string name="empty_select_txt">您还没有选择审核对象,请选择后在操作。</string>
+    <string name="agree_community_dialog_txt">确认要同意所选用户的申请吗?</string>
+    <string name="reject_community_dialog_txt">确认要拒绝所选用户的申请吗?</string>
+    <string name="colse_community_dialog_success">关闭社区成功</string>
+    <string name="exit_community_dialog_success">退出社区成功</string>
+    <string name="community_reply_prefix2"><![CDATA[<font color="#4770c2" size="12px">%1$s</font><font color="#293b5f" size="12px">回复</font><font color="#4770c2" size="12px">%2$s</font>]]></string>
+    <string name="community_reply_prefix1"><![CDATA[<font color="#4770c2" size="12px">%1$s</font>]]></string>
+    <string name="apply_join">申请加入</string>
+    <string name="apply_check">申请审核中</string>
+    <string name="community_detials">社区详情</string>
+    <string name="colse_community">关闭社区</string>
+    <string name="exit_community">退出社区</string>
+    <string name="check_all_community">全选</string>
+    <string name="cancel_check_all_community">取消全选</string>
+    <string name="agree">同意</string>
+    <string name="reject">拒绝</string>
+    <string name="xyq_info">信息</string>
+    <string name="xyq_classmete_list_title">成员列表</string>
+    <string name="xyq_classmete_select">转发到社区</string>
+    <string name="xyq_empty_class">没有选择转发的班级</string>
+    <string name="xyq_send_success">转送成功</string>
+    <string name="is_delete_msg">是否删除该动态？</string>
+    <string name="is_delete_comment_msg">是否删除该讨论？</string>
+    <string name="is_delete_reply_msg">是否删除该回复？</string>
+    <string name="xyq_share_talk">分享点什么吧...</string>
+    <string name="albums">手机相册</string>
+    <string name="photograph">拍照</string>
+    <string name="set_your_photos">请选择图片来源:</string>
+    <string name="suceess">完成</string>
+    <string name="not_photo">该图片不存在</string>
+    <string name="photo_size_limit">最多选择3张图片</string>
+    <string name="photo_select">选择相册</string>
+    <string name="photo_img">照片</string>
+    <string name="photo_size">完成(%s)</string>
+    <string name="empty_content">发送内容不能为空</string>
+    <string name="empyt_sdcard">请确认已经插入SD卡</string>
+    <string name="empty_albums">该相册不存在</string>
+    <string name="reply">回复</string>
+    <string name="forwarding">转发</string>
+    <string name="comment">讨论</string>
+    <string name="praise">赞</string>
+    <string name="complete_praise">已赞</string>
+    <string name="collect">收藏</string>
+    <string name="complete_collect">已收藏</string>
+    <string name="send_failure_prompt_message">消息发送失败,是否重新发送？</string>
+    <string name="community_talk_tab_dynamic">动态</string>
+    <string name="community_talk_tab_reply_my">回复我的</string>
+    <string name="community_talk_tab_my">我的说说</string>
+    <string name="community_talk_tab_collect">我的收藏</string>
+    <string name="community_remove_collect_fail">移除收藏失败</string>
+    <string name="community_cancle_success_collect_hint">取消收藏成功</string>
+    <string name="community_success_collect_hint">收藏成功</string>
+    <string name="community_collect_hint">收藏</string>
+    <string name="community_cancle_collect_hint">取消收藏</string>
+    <string name="community_cancle_fail_collect_hint">取消收藏失败</string>
+    <string name="community_fail_collect_hint">收藏失败</string>
+    <string name="community_cancle_top_hint">取消置顶成功</string>
+    <string name="community_top_hint">置顶成功</string>
+    <string name="community_had_collect">已收藏</string>
+    <string name="community_collect">收藏</string>
+    <string name="community_cannot_enter">该社区无法进入</string>
+
+    <!-- 新闻 -->
+
+    <string name="news_create_time">发布时间:</string>
+    <string name="news_browse_num">浏览数:</string>
+
+    <!-- 专题 -->
+    <string name="topic_course_num">课程数:</string>
+    <string name="topic_doc_num">知识数:</string>
+    <string name="topic_browse_num">浏览数:</string>
+    <string name="topic_course_hour"><![CDATA[<font color="#a8a7b9">课时:</font>]]></string>
+    <string name="topic_course_score"><![CDATA[<font color="#a8a7b9">学分:</font>]]></string>
+    <string name="topic_doc_create_user"><![CDATA[<font color="#a8a7b9">上传者:</font>]]></string>
+    <string name="topic_doc_time"><![CDATA[<font color="#a8a7b9">发布时间:</font>]]></string>
+    <string name="topic_fragment_tag_recommend">TOPIC_RECOMMEND</string>
+    <string name="topic_tab_all_class_commend">推荐专题</string>
+
+    <!-- 课程模块   start -->
+    <string name="course_tab_all_class">全部课程</string>
+    <string name="course_tab_all_class_commend">推荐课程</string>
+    <string name="course_tab_all_class_dir">目录</string>
+    <string name="course_tab_all_class_new">最新</string>
+    <string name="course_tab_all_class_hot">最热</string>
+    <string name="course_tab_my_class">我的课程</string>
+    <string name="course_tab_my_class_wait">待审核</string>
+    <string name="course_tab_my_class_study">学习中</string>
+    <string name="course_tab_my_class_finish">已完成</string>
+    <string name="course_tab_offline_class">离线课程</string>
+    <string name="course_fragment_class_packname">com.netschina.mlds.business.course.view</string>
+    <string name="course_fragment_class_all">AllCourseFragment</string>
+    <string name="course_fragment_class_my">MyCourseFragment</string>
+    <string name="course_fragment_class_Offline">com.netschina.mlds.business.offline.view.OfflineCourseFragment</string>
+    <string name="course_fragment_class_dir">DirCourseFragment</string>
+    <string name="course_fragment_class_all_base">AllCourseBFragment</string>
+    <string name="course_fragment_class_my_base">MyCourseBFragment</string>
+    <string name="course_fragment_tag_all">COURSE_ALL</string>
+    <string name="course_fragment_tag_my">COURSE_MY</string>
+    <string name="course_fragment_tag_offline">COURSE_OFFLINE</string>
+    <string name="course_fragment_tag_all_dir">COURSE_ALL_DIR</string>
+    <string name="course_fragment_tag_all_new">COURSE_ALL_NEW</string>
+    <string name="course_fragment_tag_all_hot">COURSE_ALL_HOT</string>
+    <string name="course_fragment_tag_all_recommend">COURSE_ALL_RECOMMEND</string>
+    <string name="course_fragment_tag_my_wait">COURSE_MY_WAIT</string>
+    <string name="course_fragment_tag_my_study">COURSE_MY_STUDY</string>
+    <string name="course_fragment_tag_my_finish">COURSE_MY_FINISH</string>
+    <string name="course_fragment_item_froms">来源：%s</string>
+    <string name="course_fragment_item_froms1">自主注册</string>
+    <string name="course_fragment_item_froms2">路径推送</string>
+    <string name="course_fragment_item_froms3">班级推送</string>
+    <string name="course_fragment_item_froms4">能力推送</string>
+    <string name="course_fragment_item_froms5">学习请求</string>
+    <string name="course_fragment_item_froms6">规则推送</string>
+    <string name="course_fragment_item_froms7">职位推送</string>
+    <string name="course_fragment_item_froms8">工作角色推送</string>
+    <string name="course_fragment_item_status_nopass">未通过</string>
+    <string name="course_fragment_item_status_pass">通过</string>
+    <string name="course_fragment_item_status_check">待评卷</string>
+    <string name="course_fragment_item_status_waitexam">待考试</string>
+    <string name="course_fragment_item_readnum">学习数</string>
+    <string name="course_fragment_dir_nodata">暂无课程</string>
+    <string name="course_fragment_xiajia_course_hint">该课程已下架！</string>
+    <string name="course_detail_title">课程详情</string>
+    <string name="course_detail_commend">讨论</string>
+    <string name="course_detail_score">评分</string>
+    <string name="course_detail_notepad">笔记</string>
+    <string name="course_detail_download">下载</string>
+    <string name="course_detail_more">更多</string>
+    <string name="course_detail_head_dir">目录：%s</string>
+    <string name="course_detail_head_author">发布人：%s</string>
+    <string name="course_detail_head_time">课时  %s</string>
+    <string name="course_detail_head_score">学分  %s</string>
+    <string name="course_detail_head_nums">学习人数  %s</string>
+    <string name="course_detail_head_finish_rules">完成规则：%s</string>
+    <string name="course_detail_head_unstudy">我要学习</string>
+    <string name="course_detail_head_study_fail">申请失败</string>
+    <string name="course_detail_head_study_success">申请成功，您现在可以学习了</string>
+    <string name="course_detail_head_study_nostart">您还未学习该课程，不能%s</string>
+    <string name="course_detail_head_study_nostart_hint1">发表讨论</string>
+    <string name="course_detail_head_study_nostart_hint2">进行评分</string>
+    <string name="course_detail_head_study_nostart_hint3">记录笔记</string>
+    <string name="course_detail_head_study_nostart_hint4">进行下载</string>
+    <string name="course_detail_tab_dir">目录</string>
+    <string name="course_detail_tab_dir_chapter">第%s章</string>
+    <string name="course_detail_tab_dir_section">第%s节</string>
+    <string name="course_detail_tab_dir_click_study">请点击我要学习按钮，申请加入学习！</string>
+    <string name="course_detail_study_noauthor_hint">您无权限学习该课程!</string>
+    <string name="course_detail_notepad_noauthor_hint">您无权限记录笔记!</string>
+    <string name="course_detail_discuss_noauthor_hint">您无权限发表讨论!</string>
+    <string name="course_detail_notedelete_noauthor_hint">您无权限删除笔记!</string>
+    <string name="course_detail_tab_dir_playinfo_fail">获取播放信息失败</string>
+    <string name="course_detail_tab_dir_click_fail">加载信息失败</string>
+    <string name="course_detail_tab_dir_unfit">暂不支持此格式的文件</string>
+    <string name="course_detail_tab_dir_loadcarch_hit">正在保存播放记录...</string>
+    <string name="course_detail_tab_dir_loadcarch_fail">保存播放记录失败，是否重新保存？</string>
+    <string name="course_detail_tab_dir_loadcarch_next">当前课程播放完毕，继续播放下一节课程？</string>
+    <string name="course_detail_tab_dir_loadcarch_reload">重试</string>
+    <string name="course_detail_tab_dir_loadcarch_cancle">退出</string>
+    <string name="course_detail_tab_dir_loadcarch_continue">继续</string>
+    <string name="course_detail_tab_dir_loadcarch_nocontinue">否</string>
+    <string name="course_detail_tab_brief">简介</string>
+    <string name="course_detail_tab_brief_finishRule_auto">课程自动完成</string>
+    <string name="course_detail_tab_brief_finishRule_exam">考试通过后完成</string>
+    <string name="course_detail_tab_exam">考试</string>
+    <string name="course_detail_tab_dis">讨论</string>
+    <string name="course_detail_tab_dis_success">发送成功</string>
+    <string name="course_detail_tab_dis_fail">发送失败</string>
+    <string name="course_detail_tab_dis_empty">抢到沙发了！\n还没人进行讨论，赶紧发个吧！</string>
+    <string name="course_detail_tab_dis_item_replay">回复</string>
+    <string name="course_detail_tab_dis_title">讨论详情</string>
+    <string name="course_detail_tab_dis_user_fail">获取用户信息失败</string>
+    <string name="course_detail_tab_dis_item_replay_num">回复 </string>
+    <string name="course_detail_tab_note">笔记</string>
+    <string name="course_detail_tab_note_empty"> 做笔记有助于记忆，\n赶紧记录您感兴趣的知识点吧...</string>
+    <string name="course_detail_tab_note_delete_hint">是否删除该笔记？</string>
+    <string name="course_detail_tab_note_delete_fail">删除笔记失败</string>
+    <string name="course_detail_tab_exam_total">满分：%s 分</string>
+    <string name="course_detail_tab_exam_higest">最高得分：%s 分</string>
+    <string name="course_detail_tab_exam_pass">及格分：%s 分</string>
+    <string name="course_detail_tab_exam_state">状态：%s </string>
+    <string name="course_detail_tab_exam_state_wait">待评卷</string>
+    <string name="course_detail_tab_exam_state_fail">未通过</string>
+    <string name="course_detail_tab_exam_state_pass">已通过</string>
+    <string name="course_detail_tab_exam_state_nobegin">未考试</string>
+    <string name="course_detail_tab_exam_btn_wait">待评卷</string>
+    <string name="course_detail_tab_exam_btn_fail">继续考试</string>
+    <string name="course_detail_tab_exam_btn_pass">查看答卷</string>
+    <string name="course_detail_tab_exam_btn_nobegin">开始考试</string>
+    <string name="course_detail_tab_exam_titleinfo">考试信息：</string>
+    <string name="course_detail_tab_exam_nodata">暂未安排考试</string>
+    <string name="course_detail_tab_exam_nofinish">请先完成课程，再进行考试</string>
+    <string name="course_detail_tab_exam_start_fail">加载考试失败</string>
+    <string name="course_detail_tab_exam_start_popup_title">尚未安排补考，是否直接查看成绩？</string>
+    <string name="course_detail_tab_exam_start_noexam">暂未安排补考</string>
+    <string name="course_detail_tab_exam_start_detail_title">课后考试</string>
+    <string name="course_detail_tab_exam_again">再考一次</string>
+    <string name="course_detail_bottom_score_title">请为该课程评分</string>
+    <string name="course_detail_bottom_score_success">评分成功</string>
+    <string name="course_detail_bottom_score_fail">评分失败</string>
+    <string name="course_detail_bottom_collect_success">收藏成功</string>
+    <string name="course_detail_bottom_collect_fail">收藏失败</string>
+    <string name="course_detail_bottom_uncollect_success">取消收藏成功</string>
+    <string name="course_detail_bottom_uncollect_fail">取消收藏失败</string>
+    <string name="course_detail_bottom_uncollect">取消收藏</string>
+    <string name="course_detail_bottom_abandon_success">放弃学习成功</string>
+    <string name="course_detail_bottom_abandon_fail">放弃学习失败</string>
+    <string name="course_detail_bottom_score_finish">您的评分是%s分</string>
+    <string name="course_detail_bottom_note_title">笔记</string>
+    <string name="course_detail_bottom_note_addbtn">添加</string>
+    <string name="course_detail_bottom_note_updatebtn">修改</string>
+    <string name="course_detail_bottom_note_add_hint">记笔记</string>
+    <string name="course_detail_bottom_note_hint">请输入笔记内容</string>
+    <string name="course_detail_bottom_note_empty">笔记不能为空</string>
+    <string name="course_detail_bottom_note_save_title">您的笔记尚未保存，确定保存吗？</string>
+    <string name="course_detail_bottom_note_save_left">取消</string>
+    <string name="course_detail_bottom_note_save_right">确定</string>
+    <string name="course_detail_bottom_note_save_finish">保存</string>
+    <string name="course_detail_tab_senddis_btn">发表</string>
+    <string name="course_detail_bottom_dis_title">讨论</string>
+    <string name="course_detail_bottom_dis_add_hint">写讨论</string>
+    <string name="course_detail_bottom_dis_addbtn">发送</string>
+    <string name="course_detail_bottom_dis_hint">请输入讨论内容</string>
+    <string name="course_detail_bottom_dis_empty">讨论不能为空</string>
+    <string name="course_detail_bottom_dis_stickie">置顶</string>
+    <string name="course_detail_bottom_down_title">课程下载</string>
+    <string name="course_detail_bottom_down_all">全选</string>
+    <string name="course_detail_bottom_down_load">确认下载</string>
+    <string name="course_detail_bottom_down_one">至少选择一个下载！</string>
+    <string name="course_detail_bottom_down_start">下载课程已添加到离线缓存！</string>
+    <string name="course_detail_bottom_down_allload">全&#160;&#160;部&#160;&#160;下&#160;&#160;载</string>
+    <string name="course_detail_bottom_collect_pup">收藏</string>
+    <string name="course_detail_bottom_unregist_pup">放弃</string>
+    <string name="course_detail_bottom_unregist_content_hint">确定要放弃该课程？一经放弃，本课程所有学习记录将会清空。</string>
+    <string name="course_detail_bottom_unregist_cancle_hint">否</string>
+    <string name="course_detail_bottom_unregist_sure_hint">放弃</string>
+    <string name="course_detail_bottom_unregist_hint">抱歉，该课程不允许放弃!</string>
+    <string name="course_detail_bottom_study_status_noauthor">无权限学习</string>
+    <string name="course_detail_bottom_study_status_noapply">我要学习</string>
+    <string name="course_detail_bottom_study_status_applying">审核中</string>
+    <string name="course_detail_bottom_study_status_reapply">重新申请</string>
+    <string name="course_detail_bottom_study_status_applyfail">申请失败</string>
+    <string name="course_detail_exam_answer_detail_best">最好记录</string>
+    <string name="course_detail_exam_answer_detail_all">所有记录</string>
+    <string name="course_detail_exam_answer_detail_item_score">得分：%s分</string>
+    <string name="course_detail_exam_answer_detail_item_nopass">不及格</string>
+    <string name="course_detail_exam_answer_detail_item_pass">通过</string>
+    <string name="course_detail_exam_answer_detail_item_wait">待评卷</string>
+    <string name="course_detail_exam_answer_detail_item_wait_hint">交卷成功，评卷老师将会尽快为您评卷！</string>
+    <string name="course_detail_exam_answer_detail_item_wait_hint2">考试待评卷中，请耐心等待！</string>
+    <string name="course_detail_exam_no_support">该考试需要到PC端完成！</string>
+    <string name="course_detail_finish_course_empty_score">请对课程进行评分！</string>
+    <string name="course_detail_finish_scored">您已评分！</string>
+    <string name="course_detail_fail_err_chapter">请求章节失败！</string>
+    <string name="course_list">课程列表</string>
+    <string name="course_zero_minu">0分钟</string>
+    <string name="course_section_index">第%s节</string>
+    <string name="course_chapter_index">第%s章</string>
+    <string name="course_nobug">已下架</string>
+    <string name="course_obligView">必修</string>
+    <string name="course_author">上传者：%s</string>
+    <string name="course_cannot_play_to_contact">您所播的MP3无法播放，请联系管理员。</string>
+    <string name="course_retry">重试</string>
+    <string name="course_exit">退出</string>
+    <!-- 课程模块   end -->
+
+    <!-- 学习路径 模块 start -->
+
+    <!-- 学习路径模块   end -->
+
+    <!-- 知识库模块   start -->
+    <string name="doc_tab_all_doc">知识库</string>
+    <string name="doc_tab_all_doc_dir">目录</string>
+    <string name="doc_tab_all_doc_new">最新</string>
+    <string name="doc_tab_all_doc_hot">最热</string>
+    <string name="doc_tab_collect_doc">我的收藏</string>
+    <string name="doc_tab_publish_doc">我的发布</string>
+    <string name="doc_tab_publish_offline">离线知识</string>
+    <string name="doc_tab_all_class_commend">热门知识</string>
+    <string name="doc_fragment_class_packname">com.netschina.mlds.business.doc.view</string>
+    <string name="doc_fragment_class_all">AllDocFragment</string>
+    <string name="doc_fragment_class_dir">DirDocFragment</string>
+    <string name="doc_fragment_class_base">DocBFragment</string>
+    <string name="doc_fragment_class_offline">com.netschina.mlds.business.offline.view.OfflineDocFragment</string>
+    <string name="doc_fragment_tag_all">DOC_ALL</string>
+    <string name="doc_fragment_tag_all_dir">DOC_ALL_DIR</string>
+    <string name="doc_fragment_tag_all_new">DOC_ALL_NEW</string>
+    <string name="doc_fragment_tag_all_hot">DOC_ALL_HOT</string>
+    <string name="doc_fragment_tag_collect">DOC_COLLECT</string>
+    <string name="doc_fragment_tag_publish">DOC_PUBLISH</string>
+    <string name="doc_fragment_tag_offline">DOC_OFFLINE</string>
+    <string name="doc_fragment_tag_num">浏览数</string>
+    <string name="doc_fragment_dir_nodata">暂无知识</string>
+    <string name="doc_detail_title">知识库详情</string>
+    <string name="doc_detail_title_collect">收藏</string>
+    <string name="doc_detail_title_score">评分</string>
+    <string name="doc_detail_title_scoreed">已评分</string>
+    <string name="doc_detail_title_collect_cancle">取消收藏</string>
+    <string name="doc_detail_title_score_cannot">对不起，你没有权限评分或收藏此文档</string>
+    <string name="doc_detail_title_scoreed_hint">您已进行过评分</string>
+    <string name="doc_detail_title_score_title">请为该知识文档评分</string>
+    <string name="doc_detail_title_collect_success">收藏成功</string>
+    <string name="doc_detail_title_collect_fail">收藏失败</string>
+    <string name="doc_detail_title_collect_cancle_success">取消收藏成功</string>
+    <string name="doc_detail_title_collect_cancle_fail">取消收藏失败</string>
+    <string name="doc_detail_title_score_success_hint">感谢您对该知识库进行评分</string>
+    <string name="doc_detail_head_dir">目录：%s</string>
+    <string name="doc_detail_head_author">上传者：%s</string>
+    <string name="doc_detail_head_time">时间：%s</string>
+    <string name="doc_detail_head_score">下载积分：%s</string>
+    <string name="doc_detail_head_nums">浏览数：%s</string>
+    <string name="doc_detail_head_look">查看</string>
+    <string name="doc_detail_head_look_continu">继续</string>
+    <string name="doc_detail_head_look_unfit">对不起，暂不支持此格式文件！</string>
+    <string name="doc_detail_head_look_cannot">对不起，你没有权限查看此文档！</string>
+    <string name="doc_detail_head_look_refail">获取资源失败</string>
+    <string name="doc_detail_head_look_size_over">文件大于  %s M,请在PC端查看</string>
+    <string name="doc_detail_head_look_network_type">您正在使用2G/3G/4G网络查看文档，继续使用将会产生流量费用，是否继续？</string>
+    <string name="doc_detail_head_dis_cannot">对不起，你没有权限讨论此文档！</string>
+    <string name="doc_detail_head_play">播放</string>
+    <string name="doc_detail_head_icon_txt">txt</string>
+    <string name="doc_detail_head_icon_pdf">pdf</string>
+    <string name="doc_detail_head_icon_doc">doc</string>
+    <string name="doc_detail_head_icon_docx">docx</string>
+    <string name="doc_detail_head_icon_ppt">ppt</string>
+    <string name="doc_detail_head_icon_pptx">pptx</string>
+    <string name="doc_detail_head_icon_xls">xls</string>
+    <string name="doc_detail_head_icon_xlsx">xlsx</string>
+    <string name="doc_detail_head_icon_mp4">mp4</string>
+    <string name="doc_detail_head_icon_mp3">mp3</string>
+    <string name="doc_detail_head_icon_epub">epub</string>
+    <string name="doc_detail_head_descript">知识描述</string>
+    <string name="doc_detail_bottom_notlook">无权限查看</string>
+    <string name="doc_detail_download">下载</string>
+    <string name="doc_detail_commend">讨论</string>
+    <string name="doc_detail_score">评分</string>
+    <string name="doc_detail_collect">收藏</string>
+    <string name="doc_detail_tab_brief">简介</string>
+    <string name="doc_detail_tab_dis">讨论</string>
+    <string name="doc_detail_bottom_dis_hint">输入讨论...</string>
+    <string name="doc_detail_bottom_dis_send">发送</string>
+    <string name="doc_detail_download_hint">您已经下载过该文档！</string>
+    <string name="doc_detail_download_nopermisson_hint">您无权限下载该知识文档！</string>
+    <string name="doc_detail_download_scoreless_hint">您的积分不够，无法下载！</string>
+    <string name="doc_detail_download_faile_hint">下载失败！</string>
+    <string name="doc_detail_look_nopermisson_hint">您无权限查看该知识文档！</string>
+    <string name="doc_detail_discuss_nopermisson_hint">您无权限讨论该知识文档！</string>
+    <string name="doc_detail_download_need_score_hint">需要%s个积分，您确定下载吗？</string>
+    <string name="doc_detail_download_hasdownload_hint">您已下载过该文档，继续下载将不会扣除积分!</string>
+    <string name="doc_detail_delete_doc_hint">删除该文件</string>
+    <string name="report_suc">举报成功！</string>
+    <!-- 知识库模块   end -->
+
+
+    <!-- 考试模块   start -->
+    <string name="exam_tab_simu_exam">模拟考试</string>
+    <string name="exam_tab_public_exam">报名考试</string>
+    <string name="exam_tab_my_exam">我的考试</string>
+    <string name="exam_tab_wait_simu_exam">未参与</string>
+    <string name="exam_tab_start_simu_exam">已参与</string>
+    <string name="exam_tab_doing_simu_exam">进行中</string>
+    <string name="exam_tab_end_simu_exam">已结束</string>
+    <string name="exam_tab_wait_exam">待考试</string>
+    <string name="exam_tab_end_exam">已完成</string>
+    <string name="exam_tab_over_exam">已过期</string>
+    <string name="exam_tab_public_exam_doing">进行中</string>
+    <string name="exam_tab_public_exam_over">已结束</string>
+    <string name="exam_fragment_class_packname">com.netschina.mlds.business.exam.view</string>
+    <string name="exam_fragment_class_simu">SimuExamFragment</string>
+    <string name="exam_fragment_class_my">MyExamFragment</string>
+    <string name="exam_fragment_class_base">ExamBFragment</string>
+    <string name="exam_fragment_class_public">PublicExamFragment</string>
+    <string name="exam_fragment_tag_simu">EXAM_SIMU</string>
+    <string name="exam_fragment_tag_public">EXAM_PUBLIC</string>
+    <string name="exam_fragment_tag_my">EXAM_MY</string>
+    <string name="exam_fragment_tag_simu_wait">EXAM_SIMU_WAIT</string>
+    <string name="exam_fragment_tag_simu_start">EXAM_SIMU_START</string>
+    <string name="exam_fragment_tag_simu_doing">EXAM_SIMU_DOING</string>
+    <string name="exam_fragment_tag_simu_end">EXAM_SIMU_END</string>
+    <string name="exam_fragment_tag_my_wait">EXAM_MY_WAIT</string>
+    <string name="exam_fragment_tag_my_end">EXAM_MY_END</string>
+    <string name="exam_fragment_tag_my_over">EXAM_MY_OVER</string>
+    <string name="exam_fragment_tag_public_doing">EXAM_PUBLIC_DOING</string>
+    <string name="exam_fragment_tag_public_over">EXAM_PUBLIC_OVER</string>
+    <string name="exam_fragment_apply_status_noenjoy">未报名</string>
+    <string name="exam_fragment_apply_status_check">申请中</string>
+    <string name="exam_fragment_apply_status_enjoying">报名中</string>
+    <string name="exam_fragment_apply_status_examing">考试中</string>
+    <string name="exam_fragment_apply_status_refurse">已拒绝</string>
+    <string name="exam_fragment_apply_status_enjoy">已报名</string>
+    <string name="exam_fragment_status_nopass">未通过[%s分]</string>
+    <string name="exam_fragment_status_pass">通过[%s分]</string>
+    <string name="exam_fragment_status_check">待评卷</string>
+    <string name="exam_detail_title">考试详情</string>
+    <string name="exam_detail_head_start_time0">开始时间：%s</string>
+    <string name="exam_detail_head_end_time0">结束时间：%s</string>
+    <string name="exam_detail_head_start_time">始：%s</string>
+    <string name="exam_detail_head_end_time">终：%s</string>
+    <string name="exam_detail_head_test_time">考试时长：%s 分钟</string>
+    <string name="exam_detail_head_total_score">试卷总分：%s 分</string>
+    <string name="exam_detail_head_pass_score">及格分数：%s 分</string>
+    <string name="exam_detail_head_all_counts">试题总题数：%s </string>
+    <string name="exam_detail_head_pass_credit">学&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;分：%s 分</string>
+    <string name="exam_detail_tab_exam_intrudu">考试简介</string>
+    <string name="exam_detail_tab_exam_know">考前须知</string>
+    <string name="exam_detail_tab_exam_history">历史记录</string>
+    <string name="exam_detail_tab_exam_history_bast">最好记录</string>
+    <string name="exam_detail_tab_exam_history_last">最近记录</string>
+    <string name="exam_detail_tab_exam_history_score">正确题数：%s</string>
+    <string name="exam_detail_tab_exam_history_empty">暂无历史记录</string>
+    <string name="exam_detail_tab_exam_history_getscore">得分</string>
+    <string name="exam_detail_tab_exam_history_look">查看答卷</string>
+    <string name="exam_detail_bottom_exam_start">开始考试</string>
+    <string name="exam_detail_bottom_exam_continue">继续考试</string>
+    <string name="exam_detail_bottom_exam_look">查看答卷</string>
+    <string name="exam_detail_bottom_exam_enjoy">我要报名</string>
+    <string name="exam_detail_bottom_exam_cancle">取消报名</string>
+    <string name="exam_detail_bottom_exam_enjoyed_hint">已经报名</string>
+    <string name="exam_detail_bottom_exam_agaenjoy">再次报名</string>
+    <string name="exam_detail_bottom_exam_lookpage">查看答卷</string>
+    <string name="exam_detail_bottom_exam_timeover">时间过期</string>
+    <string name="exam_detail_bottom_exam_waitscore">待评卷</string>
+    <string name="exam_detail_bottom_exam_nopass">已拒绝</string>
+    <string name="exam_detail_bottom_exam_simu_enjoy">我要参加</string>
+    <string name="exam_detail_bottom_exam_start_try">开始练习</string>
+    <string name="exam_detail_bottom_exam_simu_enjoy_fail">参加考试失败</string>
+    <string name="exam_detail_bottom_exam_apply_success">报名成功</string>
+    <string name="exam_detail_bottom_exam_apply_fail">报名失败</string>
+    <string name="exam_detail_bottom_exam_unapply_success">取消报名成功</string>
+    <string name="exam_detail_bottom_exam_unapply_fail">取消报名失败</string>
+    <string name="exam_detail_bottom_exam_start_fail">开始考试失败</string>
+    <string name="exam_detail_bottom_exam_getinfo_fail">获取考试试题失败</string>
+    <string name="exam_detail_bottom_exam_getexamright_fail">获取标准答案失败</string>
+    <string name="exam_detail_bottom_exam_submit_fail">提交考试失败</string>
+    <string name="exam_detail_bottom_exam_start_over">本次考试已结束</string>
+    <string name="exam_detail_bottom_exam_begin_exam_hint">考试即将开始...</string>
+    <string name="exam_detail_bottom_exam_start_never">您好，距离考试开始时间还有%s</string>
+    <string name="exam_detail_bottom_exam_start_noOver">考试未完成，是否放弃本次考试？</string>
+    <string name="exam_detail_bottom_exam_start_network">网络请求异常，是否放弃本次考试？</string>
+    <string name="exam_detail_bottom_exam_time">00:00:00</string>
+    <string name="browse">浏览</string>
+    <string name="multiple_choice">单选题</string>
+    <string name="ten">(10)</string>
+    <string name="exam_pager_commit">提交</string>
+    <string name="exam_pager_answer">答题卡</string>
+    <string name="exam_pager_single_choose_title">单选</string>
+    <string name="exam_pager_mutil_choose_title">多选</string>
+    <string name="exam_pager_right_wrong_title">判断</string>
+    <string name="exam_pager_question_title">问答</string>
+    <string name="exam_pager_answercar_single_title">一、单选题</string>
+    <string name="exam_pager_answercar_mutil_title">二、多选题</string>
+    <string name="exam_pager_answercar_judge_title">三、判断题</string>
+    <string name="exam_pager_answercar_question_title">四、问答题</string>
+    <string name="exam_pager_question_inputcontent_hint">在此填写你的答案...</string>
+    <string name="exam_pager_answercar_judge_item_right">正确</string>
+    <string name="exam_pager_answercar_judge_item_wrong">错误</string>
+    <string name="exam_pager_commit_hint">是否提交答卷？</string>
+    <string name="exam_pager_commit_cancle_hint">否</string>
+    <string name="exam_pager_commit_sure_hint">提交</string>
+    <string name="exam_pager_result_title">考试成绩</string>
+    <string name="exam_pager_result_use_time">考试用时：%s </string>
+    <string name="exam_pager_result_exam_score">试卷总分：%s 分</string>
+    <string name="exam_pager_result_exam_right">正确： %s 道</string>
+    <string name="exam_pager_result_exam_wrong">错误：%s 道</string>
+    <string name="exam_pager_result_exam_abandon">放弃：%s 道</string>
+    <string name="exam_pager_result_exam_only_score_hint">考试已提交，您的分数是：%s分</string>
+    <string name="exam_pager_result_exam_right_answer">标准答案：%s</string>
+    <string name="exam_pager_result_exam_wrong_hint">很遗憾，您答错了！</string>
+    <string name="exam_pager_result_exam_right_hint">不错哟，答对了！</string>
+    <string name="exam_pager_exam_save_carchs">正在考试中，是否离开并保存考试进度？</string>
+    <string name="exam_pager_exam_submit_back">当前考试未结束，是否提交答卷？</string>
+    <string name="exam_pager_exam_abandon_back">确定放弃本次考试？</string>
+    <string name="exam_pager_exam_submit_timeover_hint">您好，你的考试时间已到，是否提交试卷？</string>
+    <string name="exam_pager_exam_submit_timeover_sure">提交</string>
+    <string name="exam_pager_exam_submit_timeover_abandon">放弃</string>
+    <string name="exam_pager_exam_submit_pass_hint">恭喜您考试通过，是否查看考试结果？</string>
+    <string name="exam_pager_exam_submit_only_show_score_hint">交卷成功，客观题得分%s，是否查看考试结果？</string>
+    <string name="exam_pager_exam_submit_nopass_hint">很遗憾您未通过考试，是否查看考试结果？</string>
+    <string name="exam_pager_exam_submit_fail_hint">提交考试失败，是否重新提交？</string>
+    <string name="exam_pager_exam_submit_fail_resubmit_hint">重新提交</string>
+    <string name="exam_pager_exam_submit_fail_exit_hint">退出保存</string>
+    <string name="exam_pager_no_allow_look_hint">该试卷不支持查看！</string>
+    <string name="exam_pager_score">分</string><!--表示分数的分  -->
+    <string name="exam_pager_day">天</string>
+    <string name="exam_pager_hour">小时</string>
+    <string name="exam_pager_minue">分钟</string>
+    <string name="exam_pager_have">有</string>
+    <string name="exam_pager_empty_answer">本题无作答</string>
+    <string name="exam_pager_score_get">本题得分：%s分</string>
+    <string name="exam_pager_minue2">分</string> <!--表示时间的分  -->
+    <string name="exam_pager_second">秒</string>
+    <string name="exam_pager_dao">道</string>
+    <!-- 考试模块   end -->
+
+
+    <!-- 离线模块 start -->
+    <string name="offline_fragment_tabs_course">离线课程</string>
+    <string name="offline_fragment_tabs_doc">离线知识</string>
+    <string name="offline_fragment_class_course">OfflineCourseFragment</string>
+    <string name="offline_fragment_class_doc">OfflineDocFragment</string>
+    <string name="offline_fragment_tag">OffLINE_FRAGMENT</string>
+    <string name="offline_fragment_tag_course">OFFLINE_COURSE</string>
+    <string name="offline_fragment_tag_doc">OFFLINE_DOC</string>
+    <string name="offline_fragment_title">我的离线</string>
+    <string name="offline_fragment_delete_all_btn">全选</string>
+    <string name="offline_fragment_delete_sure_btn">删除</string>
+    <string name="offline_fragment_edit_btn">编辑</string>
+    <string name="offline_fragment_cancle_btn">取消</string>
+    <string name="offline_fragment_cancle_check_btn">取消全选</string>
+    <string name="offline_fragment_delete_empty_hint">至少选择一个删除！</string>
+    <string name="offline_fragment_delete_empty_course">暂无离线课程！</string>
+    <string name="offline_fragment_delete_empty_doc">暂无离线知识文档！</string>
+    <string name="offline_detail_course_delete_nohint">确定删除？(此操作同时会删除缓存本地文件)</string>
+    <string name="offline_detail_course_delete_hint">确定删除%s个任务？(此操作同时会删除缓存本地文件)</string>
+    <string name="offline_detail_course_play_continue_hint">上次播放到：%s \n是否继续上次播放</string>
+    <string name="offline_detail_course_play_fail_hint">您所播的视频无法播放，请联系管理员。</string>
+    <string name="offline_detail_course_play_fail_try">重试</string>
+    <string name="offline_detail_course_play_fail_exit">退出</string>
+    <string name="offline_frament_course_goto">您当前未连接网络，是否查看“离线缓存”中的课程？</string>
+    <string name="offline_frament_doc_goto">您当前未连接网络，是否查看“离线缓存”中的知识文档？</string>
+    <string name="offline_wait_download_hint">等待下载中...</string>
+    <string name="offline_downloaded_all_course_hint">该课程已全部下载！</string>
+    <string name="offline_downloaded_insert_course_hint">下载课程已添加到离线缓存！</string>
+    <string name="offline_downloaded_load_course_hint">正在加载课程，请稍等...</string>
+    <string name="offline_deleteFile">删除该文件</string>
+    <string name="offline_deleteAllFile">清空全部</string>
+    <string name="offline_deleteCancle">取消</string>
+    <!-- 离线模块 end -->
+
+    <string name="question_lenght_size">输入超出限制，只能输入140个字</string>
+    <string name="question_content_lenght">输入超出限制，只能输入140个字</string>
+    <string name="empty_question">问题不能为空</string>
+
+    <!-- 消息start -->
+    <string name="message">消息</string>
+    <string name="message_detail">消息</string>
+    <string name="message_fragment_tag">MESSAGE_FRAGMENT</string>
+    <string name="message_fragment_tabs_unread">未读消息</string>
+    <string name="message_fragment_tabs_read">已读消息</string>
+    <string name="message_fragment_tabs_all">消息</string>
+    <string name="message_fragment_class_unread">MessageBFragment</string>
+    <string name="message_fragment_class_read">MessageBFragment</string>
+    <string name="message_fragment_class_all">MessageBFragment</string>
+    <string name="message_fragment_tag_unread">MESSAGE_UNREAD</string>
+    <string name="message_fragment_tag_read">MESSAGE_READ</string>
+    <string name="message_fragment_tag_all">MESSAGE_ALL</string>
+    <string name="message_detail_enter_model">进入详情</string>
+    <!-- 消息end -->
+
+    <string name="sender">发件人：</string>
+    <string name="delete">删  除</string>
+    <string name="failed_to_get_data">获取数据失败</string>
+    <string name="clear_your_history">清空历史记录</string>
+    <string name="professional_control">专业控烟介绍</string>
+    <string name="already_delete">已经删除</string>
+
+    <!-- 搜索模块 start -->
+    <string name="search_more">更多</string>
+    <string name="ImageViewDescription">图片</string>
+    <string name="main_search_doc">知识</string>
+    <string name="search_all">全部</string>
+    <string name="search_all_hint">搜全部</string>
+    <string name="search_course_hint">搜课程</string>
+    <string name="search_train_hint">搜培训</string>
+    <string name="search_doc_hint">搜知识</string>
+    <string name="search_ask_hint">搜爱问</string>
+    <string name="search_community_hint">搜社区</string>
+    <string name="search_key_word_cannot_be_empty">搜索关键字不能为空</string>
+    <string name="search_prompt">你可以搜索课程/培训/知识内容</string>
+    <string name="no_query_corresponding_data">没有查询到对应数据</string>
+    <!-- 搜索模块 end -->
+
+
+    <!-- 调研模块  start -->
+    <string name="no_head_tv">暂无描述</string>
+    <string name="survey_first_title">卷首语</string>
+    <string name="survey_not_open">调研时间未到,请在规定时间内参与调研,谢谢</string>
+    <string name="survey_tab_all_class_wait">进行中</string>
+    <string name="survey_tab_all_class_finish">已完成</string>
+    <string name="survey_tab_all_class_over">已结束</string>
+    <string name="survey_tab_all_class_not_completed">未完成</string>
+    <string name="survey_fragment_class_base">SurveyBFragment</string>
+    <string name="survey_fragment_tag_wait">SURVEY_ALL_WAIT</string>
+    <string name="survey_fragment_tag_finish">SURVEY_ALL_FINISH</string>
+    <string name="survey_fragment_tag_over">SURVEY_ALL_OVER</string>
+    <string name="survey_fragment_cannot_survey">调研时间未到，请在规定时间内参与调研，谢谢</string>
+    <string name="survey_fragment_finish_survery_hint">您已完成该调研，谢谢！</string>
+    <string name="survey_fragment_close_survey_hint">关闭</string>
+    <string name="survey_fragment_over_survery_hint">该调研已过期！</string>
+    <string name="survey_fragment_over_survery_commit">提交问卷</string>
+    <string name="survey_fragment_detail_juanshouyu">卷首语</string>
+    <string name="survey_fragment_detail_juanshouyu_start">开始调研</string>
+    <string name="survey_fragment_detail_isfinish_hint">调研完成请求异常，是否放弃本次调研？</string>
+    <string name="survey_fragment_detail_isover_hint">调研未完成，是否放弃本次调研？</string>
+    <string name="survey_fragment_my_finish">SURVEY_MY_FINISH</string>
+    <string name="survey_fragment_not_completed">SURVEY_MY_NOT_COMPLETED</string>
+    <string name="survey_ftagment_my_Release_person">发布人：</string>
+    <string name="survey_fragment_list_item_title">标题</string>
+    <string name="to_survey">开始调研</string>
+    <string name="to_review">查看详情</string>
+    <string name="to_end">查看结果</string>
+    <string name="survey_begin_time">开始时间:</string>
+    <string name="survey_end_time">结束时间:</string>
+    <string name="survey_publish_user">发布人:</string>
+
+    <!-- 调研模块  end -->
+
+
+    <!-- 百度推送字符串 start -->
+    <string name="no_login">未登录</string>
+    <!-- 百度推送字符串 end -->
+    <string name="photo">图片</string>
+    <string name="not_empty_content">回答内容不能为空</string>
+
+    <!-- 关于start -->
+    <string name="org_name">深圳知学云科技有限公司</string>
+    <string name="network">热线：</string>
+    <string name="phone">400-069-2886</string>
+    <string name="the_official_website">官网：</string>
+    <string name="web">www.zhixueyun.com</string>
+    <string name="app_version">知学云  V1.1.0</string>
+    <string name="download_app">扫描二维码，下载客户端</string>
+    <string name="click_on_signin_button">点击右上角“签到”按钮，扫描二维码签到</string>
+    <string name="complete">完成</string>
+    <!-- 关于end -->
+    <string name="search_empty">暂时没有您要找的数据...</string>
+    <string name="search_key_empty">搜索关键字不能为空.</string>
+    <string name="tag_all">全部</string>
+
+    <!-- 直播 -->
+    <string name="my_live_tabs_live">直播</string>
+    <string name="my_live_tabs_history">历史</string>
+    <string name="exit_live">您确定离开视频直播吗？</string>
+    <string name="live_detail_tabs_desc">简介</string>
+    <string name="live_detail_tabs_lecturer">讲师</string>
+    <string name="live_detail_tabs_discuss">提问</string>
+    <string name="live_detail_tabs_content">聊天</string>
+    <string name="live_detail_tabs_chapters">章节</string>
+    <string name="live_fragment_tag_join">LIVE_JOIN</string>
+    <string name="live_fragment_tag_unjoin">LIVE_UNJOIN</string>
+    <string name="live_detail_survey_question_hint">请输入答案</string>
+    <string name="live_detail_survey_submit_btn">提交</string>
+    <string name="live_detail_survey_list_title">调研列表</string>
+    <string name="live_detail_survey_single_lab">［单选］</string>
+    <string name="live_detail_survey_multi_lab">［多选］</string>
+    <string name="live_detail_survey_question_lab">［问答］</string>
+    <string name="live_detail_survey_force_hint">该问卷为必答，请先提交问卷！</string>
+    <string name="live_detail_survey_finish_hint">提交完毕，感谢您的回答！</string>
+    <string name="live_detail_join_hint">正在努力加载中...</string>
+    <string name="live_detail_carching_hint">正在缓冲</string>
+    <string name="live_detail_carched_hint">缓冲完成</string>
+    <string name="live_detail_reconnect_hint">正在重连</string>
+    <string name="live_detail_err_domain_hint">域名domain不正确</string>
+    <string name="live_detail_err_timeout_hint">请求超时，稍后重试</string>
+    <string name="live_detail_err_site_unused_hint">站点不可用，请联系客服或相关人员</string>
+    <string name="live_detail_err_service_hint">service错误，请确认是webcast还是training</string>
+    <string name="live_detail_err_service2_hint">请检查填写的serviceType</string>
+    <string name="live_detail_err_param_hint">请检查参数</string>
+    <string name="live_detail_err_third_hint">第三方认证失败</string>
+    <string name="live_detail_err_number_hint">编号不存在</string>
+    <string name="live_detail_err_token_hint">口令错误</string>
+    <string name="live_detail_err_login_hint">站点登录帐号或登录密码错误</string>
+    <string name="live_detail_err_data_timeout_hint">数据过期</string>
+    <string name="live_detail_err_void_inti_faiL_hint">调用getVodObject失败</string>
+    <string name="live_detail_err_void_num_unexit_hint">点播编号不存在或点播不存在</string>
+    <string name="live_detail_err_void_pwd_err_hint">点播密码错误</string>
+    <string name="live_detail_err_unsupport_mobile_hint">不支持移动设备</string>
+    <string name="live_detail_vod_err_pause_hint">暂停失败</string>
+    <string name="live_detail_vod_err_play_hint">播放失败</string>
+    <string name="live_detail_vod_err_resume_hint">恢复失败</string>
+    <string name="live_detail_vod_err_seek_hint">更新进度失败</string>
+    <string name="live_detail_vod_err_stop_hint">停止失败</string>
+    <string name="live_detail_leave_normal_hint">您已经退出直播间</string>
+    <string name="live_detail_leave_kickout_hint">您已被踢出直播间</string>
+    <string name="live_detail_leave_timeout_hint">连接超时，您已经退出直播间</string>
+    <string name="live_detail_leave_close_hint">直播已经停止</string>
+    <string name="live_detail_leave_unknown_hint">您已退出直播间，请检查网络、直播间等状态</string>
+    <string name="live_detail_join_ok_hint">加入成功</string>
+    <string name="live_detail_join_connecting_hint">正在加入</string>
+    <string name="live_detail_join_connect_fail_hint">连接失败</string>
+    <string name="live_detail_join_remp_fail_hint">服务器忙碌,请稍后在试。</string>
+    <string name="live_detail_join_to_early_hint">直播尚未开始</string>
+    <string name="live_detail_join_license_hint">人数已满</string>
+    <string name="live_detail_no_vod_hint">没有点播</string>
+    <string name="chapter_title">章节：</string>
+    <string name="doc_title">文档：</string>
+    <string name="chapter_time">时间：</string>
+    <string name="video_close">关闭视频</string>
+    <string name="video_open">打开视频</string>
+    <string name="audio_close">关闭音频</string>
+    <string name="audio_open">打开音频</string>
+    <string name="live_start_date">开始日期:</string>
+    <string name="live_start_time">开始时间:</string>
+    <string name="live_person_and_score">共（%s）人参与，分数：ss</string>
+    <string name="live_survey_number">调研问卷（%s）</string>
+    <string name="live_survey_empty">暂无调查问卷！</string>
+    <string name="live_survey_noenjoy">未参加</string>
+    <string name="live_survey_playback">有回放</string>
+    <string name="live_chat_not_empty">聊天内空不能为空</string>
+    <string name="live_cannot_chat_empty">您被禁止聊天,请联系讲师</string>
+    <string name="live_network_check">请检查你您的网络是否正常</string>
+    <string name="live_no_enjoy_chat">直播未开始</string>
+    <string name="live_ask_not_empty">提问内空不能为空</string>
+
+
+    <!-- 学习路径模块   start -->
+    <string name="path_tab_all_path">学习路径</string>
+    <string name="path_tab_my_path">我的路径</string>
+    <string name="path_fragment_class_packname">com.netschina.mlds.business.path.view</string>
+    <string name="path_fragment_class_base">PathBFragment</string>
+    <string name="path_fragment_class_my">MyPathFragment</string>
+    <string name="path_fragment_tag_all">PATH_ALL</string>
+    <string name="path_fragment_tag_my">PATH_MY</string>
+    <string name="path_tab_my_studing_path">学习中</string>
+    <string name="path_tab_my_finish_path">已完成</string>
+    <string name="path_fragment_tag_my_studing">PATH_MY_STUDING</string>
+    <string name="path_fragment_tag_my_finish">PATH_MY_FINISH</string>
+    <string name="path_detail_tab_course">课程</string>
+    <string name="path_detail_tab_brief">简介</string>
+    <string name="path_detail_tab_discuss">讨论</string>
+    <string name="path_detail_tab_more">更多</string>
+    <string name="path_detail_head_time">目标天数：%s 天</string>
+    <string name="path_detail_head_time2">目标天数：%s </string>
+    <string name="path_detail_study_num">学习人数：%s</string>
+    <string name="path_detail_dispaly_date">发布日期：%s</string>
+    <string name="path_detail_display_man">发布人：%s</string>
+    <string name="path_detail_tab_score">评分</string>
+    <string name="path_detail_tab_abandon">放弃</string>
+    <string name="path_detail_course_dir_notice">请选择播放内容</string>
+    <string name="path_detail_head_study_nostart">您还未学习该学习路径，不能%s</string>
+    <string name="path_detail_head_study_noregister">请点击我要学习按钮，申请加入学习！</string>
+    <string name="path_detail_head_study_shunxuxuexi">请按照顺序学习</string>
+    <string name="path_list_target_days">目标天数:</string>
+    <string name="path_list_target_days_null">无</string>
+    <string name="path_list_target_day">天</string>
+    <string name="path_list_resource">来源:</string>
+    <string name="path_detail_bottom_unregist_hint">抱歉，该学习路径不允许放弃!</string>
+    <string name="path_detail_bottom_score_title">请为该学习路径评分</string>
+    <string name="path_detail_bottom_unregist_content_hint">确定要放弃该学习路径？</string>
+    <!-- 学习路径模块   end -->
+
+
+    <string name="person_my_collect">我的收藏</string>
+    <string name="person_my_offLine">我的离线</string>
+    <string name="person_my_study">我的学习</string>
+    <string name="person_invite">邀请有礼</string>
+    <string name="person_credit_shop">积分商城</string>
+
+
+    <!-- 新视频播放 -->
+    <string name="init_decoders">正在进行第一次解压解码包...</string>
+    <string name="loadinfo">载入中，请稍后...</string>
+    <string name="file_oper">文件操作</string>
+    <string name="file_rename">重命名</string>
+    <string name="file_rename_failed">重命名失败</string>
+    <string name="file_rename_exists">文件已存在</string>
+    <string name="file_delete">删除</string>
+    <string name="file_delete_confirm">确定删除 (%s) ？</string>
+    <string name="video_layout_loading">正在缓冲...</string>
+    <string name="vitamio_theme_app_name">播放解码器</string>
+    <string name="VideoView_error_title">视频播放不了！</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">对不起，该设备无法播放该流式的视频</string>
+    <string name="VideoView_error_text_unknown">对不起,这个视频不能播放。</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="mediacontroller_play_pause">播放/暂停</string>
+
+    <!-- 积分商城部分 -->
+    <!--公共部分-->
+    <string name="commit_failed">提交失败</string>
+
+    <string name="request_failed">请求失败</string>
+    <!-- 确认订单 -->
+
+    <string name="customer_get_by_themself">用户自提</string>
+    <string name="send_method">物流配送</string>
+    <string name="goods_num">购买数量</string>
+    <string name="commit_order">提交订单</string>
+
+    <string name="choose_get_goods_method">请选择取货方式</string>
+    <string name="num_total_point">数目过多，积分不足</string>
+    <!-- 首页-->
+    <string name="all_first">全部</string>
+    <string name="no_filter">暂无分类</string>
+    <string name="filter_choice">筛选</string>
+    <string name="classify">分类</string>
+    <string name="inte_section">积分区间</string>
+    <string name="btn_txt_exit">取消</string>
+    <string name="btn_txt_sure">确定</string>
+    <string name="inte_sort">积分排序</string>
+    <string name="time_sort">时间排序</string>
+    <string name="my_inte">我的积分</string>
+    <string name="my_order">我的订单</string>
+    <string name="no_more_content">没有更多了</string>
+    <string name="no_you_want">该分类下没有商品</string>
+    <string name="no_you_filte_want">没有找到相关商品</string>
+    <string name="drawer_low_inte">最低积分</string>
+    <string name="drawer_high_inte">最高积分</string>
+    <string name="inte">积分</string>
+    <string name="no_class_goods">暂无商品</string>
+    <!--我的订单-->
+    <string name="my_order_all_pager_tabs">全部订单</string>
+    <string name="my_order_wait_pager_tabs">待发货</string>
+    <string name="my_order_get_pager_tabs">待提货</string>
+    <string name="my_order_finish_pager_tabs">已完成</string>
+    <!--订单详情-->
+    <string name="my_order_no">订单号:</string>
+    <string name="my_order_information">订单信息</string>
+    <string name="dispatch_method">配送方式</string>
+    <string name="my_order_num">订单编号:</string>
+    <string name="my_order_time">下单时间:</string>
+    <string name="exchange_suc">恭喜你成功兑换商品</string>
+    <string name="to_order">查看订单</string>
+    <string name="return_maket">返回商城</string>
+    <string name="to_exchange">立即兑换</string>
+    <string name="exchange">兑换</string>
+    <string name="maket_goods_details_describe">商品描述</string>
+    <string name="maket_goods_details_comment">讨论</string>
+    <string name="maket_gd_comment">评价</string>
+    <string name="goods_details_price">单价(积分):</string>
+    <string name="goods_details_total_num">共兑换</string>
+    <string name="goods_details_total_price">件 合计:</string>
+    <string name="goods_details_inte">积分</string>
+    <string name="goods_details_remain_stock">剩余库存</string>
+    <string name="goods_details_single_exc">换</string>
+    <string name="goods_details_single_num">件</string>
+    <string name="goods_details_no_more">没有更多了</string>
+    <string name="goods_details_load_more">正在加载更多...</string>
+    <string name="goods_details_single_inte">积</string>
+    <string name="goods_details_remain">剩余</string>
+    <string name="goods_details_num_zero">购买数量为0</string>
+    <string name="goods_details_num_not_enough">数目不足</string>
+    <string name="goods_details_num_null">数目为空</string>
+    <string name="goods_details_express_pay_person">物流方式(个人支付)</string>
+    <string name="goods_details_express_pay_company">物流方式(公司支付)</string>
+    <string name="goods_details_no">订单编号:</string>
+    <string name="goods_details_express_type_mail">物流</string>
+    <string name="goods_details_express_type_person">自提</string>
+    <string name="goods_details_express_no">运单号:</string>
+    <string name="goods_details_order_no">订单号:</string>
+    <string name="goods_details_to_myorder">查看订单</string>
+    <string name="goods_details_to_maket">返回商城</string>
+    <!--添加讨论-->
+
+    <string name="replay_count">回复数:%s</string>
+    <string name="add_comment">添加讨论</string>
+    <string name="publish">发布</string>
+    <string name="input_comment">输入你讨论的内容</string>
+    <string name="replay">回复</string>
+    <string name="exit">取消</string>
+    <string name="sure">确定</string>
+    <string name="no_words">讨论不能为空</string>
+    <string name="too_more_words">超出最大字数限制</string>
+    <string name="remain_words">还剩</string>
+    <string name="remain_words_stop">个字，请节制</string>
+    <string name="more_words">超出</string>
+    <string name="more_words_stop">个字,请住手</string>
+    <string name="publish_suc">发布成功</string>
+    <string name="publish_fail">发布失败,请重新讨论</string>
+    <string name="publish_status_review">发布成功,等待管理员审核</string>
+
+    <!--商品详情-->
+    <string name="goods_describe">商品描述</string>
+    <string name="goods_comment">讨论</string>
+    <string name="point_not_enough">积分不足</string>
+    <string name="stock_not_enough">库存不足</string>
+    <string name="goods_sale_off">商品已下架</string>
+    <string name="please_input_conntet">请输入回复内容</string>
+    <string name="review_status_not_review">未审核   </string>
+    <string name="review_status_pass">通过  </string>
+    <string name="review_status_refuse">拒绝</string>
+
+    <!--地址-->
+
+    <string name="address_delete">删除</string>
+    <string name="address_edit">编辑</string>
+    <string name="address_delete_suc">删除地址成功</string>
+    <string name="address_delete_fail">删除地址失败</string>
+    <!--支付键盘-->
+    <string name="forget_password">忘记密码?</string>
+    <string name="no_password">还没有密码,我要设置</string>
+    <string name="password_pay_suc">支付成功</string>
+    <!--新增地址-->
+    <string name="new_address">+新增地址</string>
+    <!--验证身份-->
+    <string name="verify_id_next">下一步</string>
+    <string name="verify_id_pwd">请输入登陆密码</string>
+    <!--设置密码-->
+    <string name="newpwd_phone">手机号</string>
+    <string name="newpwd_id">验证码</string>
+    <string name="newpwd_id_edit">请输入验证码</string>
+    <string name="newpwd_pwd">输入新密码</string>
+    <string name="newpwd_pwd_again">确认新密码</string>
+    <string name="newpwd_pwd_edit">由6位数字组成</string>
+    <string name="newpwd_phone_edit">请输入手机号码</string>
+    <string name="newpwd_finish">完 成</string>
+    <string name="newpwd_send">获取验证码</string>
+    <string name="newpwd_send_again">重发</string>
+    <string name="twice_is_the_same">两次密码不一致</string>
+    <string name="input_pwd">请设置6位密码</string>
+    <string name="name_is_too_long">你的姓名输入过长,请重新输入</string>
+    <string name="right_phoneNum_type">请输入正确的电话号码</string>
+    <string name="right_postid_type">邮编为6位,请重新输入</string>
+    <string name="right_address_type">您的收货地址过长,请重新输入</string>
+    <string name="alter_failed">修改失败</string>
+    <string name="set_pwd">设置密码</string>
+    <string name="get_vcode_time">s后可重获</string>
+    <string name="get_again">重新获取</string>
+    <!--新地址-->
+    <string name="newadd_name">收货人</string>
+    <string name="newadd_name_edit">请输入收货人姓名</string>
+    <string name="newadd_phone">联系电话</string>
+    <string name="newadd_phone_edit">请输入联系电话</string>
+    <string name="newadd_post">邮编</string>
+    <string name="newadd_post_edit">请输入邮编地址</string>
+    <string name="newadd_details">详细地址</string>
+    <string name="newadd_details_edit">请输入详细地址</string>
+    <!--dialog-->
+    <string name="backdialog_hint">若返回您的讨论不会保存?</string>
+    <string name="backdialog_exit">取消</string>
+    <string name="backdialog_sure">确定</string>
+    <string name="commit_loading">提交中...</string>
+    <string name="waitting">请稍后</string>
+    <string name="not_open">暂未开放,敬请期待</string>
+
+    <string name="setpwd">设置</string>
+    <string name="set_pwd_content">您还没有设置支付密码</string>
+    <!--身份验证-->
+
+    <string name="verify_failed">请重新输入密码</string>
+    <string name="verify_input_pwd">请输入密码</string>
+    <!--回复与讨论-->
+    <string name="add_replay">添加回复</string>
+    <string name="save">保存</string>
+    <string name="perfect_content">请完整填写内容</string>
+    <!--键盘-->
+    <string name="forget_pwd">忘记密码</string>
+    <string name="setting_pwd">设置密码</string>
+    <string name="pay_failed">支付失败</string>
+    <string name="pay_suc">支付成功</string>
+    <!--title-->
+    <string name="replay_list">回复列表</string>
+    <string name="verify_ID">验证身份</string>
+    <string name="sure_order">确认订单</string>
+    <string name="add_address">新增地址</string>
+    <string name="update_address">更新地址</string>
+    <string name="choose_address">选择收货地址</string>
+    <string name="order_details">订单详情</string>
+    <string name="finish_exchange">完成兑换</string>
+    <string name="my_order_title">我的订单</string>
+    <string name="goods_details">商品详情</string>
+    <string name="mall">积分商城</string>
+
+
+    <string name="Open_Book_1">Open Book 1</string>
+    <string name="Open_Book_2">Open Book 2</string>
+    <string name="Enable_Parallel_Texts">Enable Parallel Texts</string>
+    <string name="Toggle_Sync_Views">Toggle Sync Views</string>
+    <string name="Reset_Sync_Views">Reset Sync Views</string>
+    <string name="Show_Metadata">Show Metadata</string>
+    <string name="Refresh">Refresh</string>
+    <string name="From_Book_1">From Book 1</string>
+    <string name="From_Book_2">From Book 2</string>
+    <string name="Sync_Book_1_with_Book_2">Sync Book 1 with Book 2</string>
+    <string name="Sync_Book_2_with_Book_1">Sync Book 2 with Book 1</string>
+    <string name="Book_1">Book 1</string>
+    <string name="Book_2">Book 2</string>
+    <string name="bookOpen">bookOpen</string>
+    <string name="Table_of_Contents">Table of Contents</string>
+    <string name="Change_Size">Change Panel Size</string>
+    <string name="error_LoadPage">Can not load the page</string>
+    <string name="error_LoadBook">Cannot load the book</string>
+    <string name="error_onlyOneBookOpen">Only one book open!</string>
+    <string name="error_cannotSynchronize">Cannot synchronize!</string>
+    <string name="error_metadataNotFound">Metadata not found!</string>
+    <string name="error_tocNotFound">Table of Contents not Found!</string>
+    <string name="error_cannotChangeSizes">Can not change sizes!</string>
+    <string name="url">url</string>
+    <string name="bpath">bpath</string>
+    <string name="invisible">invisible</string>
+    <string name="second">second</string>
+    <string name="time">time</string>
+    <string name="error_cannotTurnPage">Cannot turn Page!</string>
+    <string name="tome">tome</string>
+    <string name="lang">lang</string>
+    <string name="error_noOtherLanguages">No other languages!</string>
+    <string name="state">state</string>
+    <string name="error_cannotLoadState">Cannot load the application/book state</string>
+    <string name="textOrHTML">text/html</string>
+    <string name="sync">sync</string>
+    <string name="page">page</string>
+    <string name="CurrentPageBook">CurrentPageBook</string>
+    <string name="LanguageBook">LanguageBook</string>
+    <string name="pathBook">pathBook</string>
+    <string name="error_CannotCloseStream">Cannot close stream!</string>
+    <string name="Book_Stream">Book Stream</string>
+    <string name="nameEpub">nameEpub</string>
+    <string name="error_goToPage">goToPage error:</string>
+    <string name="full_path">full-path</string>
+    <string name="zip">.zip</string>
+    <string name="htmlBodyTableOpen">&lt;html&gt;&lt;body&gt;&lt;table&gt;</string>
+    <string name="titlesMeta">&lt;tr&gt;&lt;td&gt;Titles:&lt;/td&gt;</string>
+    <string name="authorsMeta">&lt;tr&gt;&lt;td&gt;Authors:&lt;/td&gt;</string>
+    <string name="contributorsMeta">&lt;tr&gt;&lt;td&gt;Contributors:&lt;/td&gt;</string>
+    <string name="languageMeta">&lt;tr&gt;&lt;td&gt;Language:&lt;/td&gt;&lt;td&gt;</string>
+    <string name="publishersMeta">&lt;tr&gt;&lt;td&gt;Publishers:&lt;/td&gt;</string>
+    <string name="typesMeta">&lt;tr&gt;&lt;td&gt;Types:&lt;/td&gt;</string>
+    <string name="descriptionsMeta">&lt;tr&gt;&lt;td&gt;Descriptions:&lt;/td&gt;</string>
+    <string name="rightsMeta">&lt;tr&gt;&lt;td&gt;Rights:&lt;/td&gt;</string>
+    <string name="tablebodyhtmlClose">&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="tocReference">&lt;tr&gt;&lt;td&gt;Table of Contents:&lt;/td&gt;</string>
+    <string name="change_Font">Change Font</string>
+    <string name="change_Font_Color">Font Color:</string>
+    <string name="changeStyle">Change Style</string>
+    <string name="blue_rgb">#0000ff</string>
+    <string name="red_rgb">#ff0000</string>
+    <string name="green_rgb">#00ff00</string>
+    <string name="black_rgb">#000000</string>
+    <string name="white_rgb">#ffffff</string>
+    <string name="error_CannotChangeStyle">Cannot Change Style!</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="SetSizeTitle">Upper Panel Size:</string>
+    <string name="LanguageChooserTitle">Choose two languages:</string>
+    <string name="parallelTextBool">parallelTextBool</string>
+
+    <string-array name="ColorFont">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>White</item>
+    </string-array>
+
+    <string name="ChangeBackgroundColor">Background Color:</string>
+
+    <string-array name="ColorBack">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Black</item>
+    </string-array>
+
+    <string name="syncScroll">Sync. Scroll</string>
+    <string name="ChangeFont">Font:</string>
+
+    <string-array name="FontStyle">
+        <item>Sans Serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+
+    <string name="Arial">Sans Serif</string>
+    <string name="Serif">Serif</string>
+    <string name="Monospace">Monospace</string>
+    <string name="FontSize">Font Size:</string>
+    <string name="LineHeight">Line Height:</string>
+    <string name="TextAlign">Alignment:</string>
+
+    <string-array name="testAlignOption">
+        <item>Left</item>
+        <item>Center</item>
+        <item>Right</item>
+        <item>Justify</item>
+    </string-array>
+
+    <string name="Left_Align">Left</string>
+    <string name="Center_Align">Center</string>
+    <string name="Right_Align">Right</string>
+    <string name="DefaultSettings">Default</string>
+    <string name="px">px</string>
+    <string name="open">Open...</string>
+    <string name="Margin">Margin(px):</string>
+
+    <string-array name="FontSize">
+        <item>100%</item>
+        <item>125%</item>
+        <item>150%</item>
+        <item>175%</item>
+        <item>200%</item>
+        <item>90%</item>
+    </string-array>
+    <string-array name="LineHeight">
+        <item>1em</item>
+        <item>1.25em</item>
+        <item>1.5em</item>
+        <item>1.75em</item>
+        <item>2em</item>
+        <item>0.9em</item>
+    </string-array>
+
+    <string name="Justify">Justify</string>
+
+    <string-array name="Margin">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+    <string name="title_activity_split_panel">SplitPanel</string>
+    <string name="title_activity_book_view">BookView</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tocview">TOCView</string>
+    <string name="title_activity_data_view">DataView</string>
+    <string name="ViewType">ViewType</string>
+    <string name="title_activity_audio_view">AudioView</string>
+    <string name="audio">Extract Audio</string>
+    <string name="error_openaudiofile">Cannot open audio file</string>
+    <string name="play">&gt;</string>
+    <string name="pause">| |</string>
+    <string name="rew">&lt;&lt;</string>
+    <string name="exAudio">exAudio</string>
+    <string name="no_audio">Can\'t find any audio file</string>
+
+
+    <!-- 我的 -->
+    <string name="my_collect_lab">我的收藏</string>
+    <string name="my_offline_lab">我的离线</string>
+    <string name="my_message_lab">我的消息</string>
+    <string name="my_market_lab">积分商城</string>
+    <string name="new_my_course_lab">我的课程</string>
+    <string name="new_my_path_lab">学习路径</string>
+    <string name="new_my_topic_lab">我的专题</string>
+    <string name="new_my_train_lab">我的班级</string>
+    <string name="new_my_exam_lab">我的考试</string>
+    <string name="new_my_survey_lab">我的调研</string>
+    <string name="new_my_doc_lab">我的知识</string>
+    <string name="new_my_live_lab">我的直播</string>
+    <string name="new_my_info_hint_study">有%s门学习中</string>
+    <string name="new_my_info_hint_path_study">有%s个学习中</string>
+    <string name="new_my_info_hint_open">有%s个开班中</string>
+    <string name="new_my_info_hint_unfinish">有%s个未完成</string>
+    <string name="new_my_info_hint_share">共分享知识%s个</string>
+    <string name="new_my_info_hint_continu">有%s个正在进行</string>
+    <string name="new_my_course_hour">%s</string>
+    <string name="new_my_xue_score">%s</string>
+    <string name="new_my_ji_score">%s</string>
+    <string name="new_my_info_head_lab">个人头像</string>
+    <string name="new_my_info_name_lab">姓名</string>
+    <string name="new_my_info_part_lab">所属部门</string>
+    <string name="new_my_info_work_lab">职位</string>
+    <string name="new_my_info_phone_lab">手机号码</string>
+    <string name="new_my_info_email_lab">电子邮箱</string>
+    <string name="new_my_info_introduct_lab">简介</string>
+    <string name="new_my_info_title">个人资料</string>
+    <string name="new_my_info_phone_edit_lab">手机号</string>
+    <string name="new_my_info_phone_edit_next">下一步</string>
+    <string name="new_my_info_phone_edit_hint">请输入新的手机号码</string>
+    <string name="new_my_info_phone_edit_empty_hint">手机号不能为空</string>
+    <string name="new_my_info_phone_edit_code_lab">验证码</string>
+    <string name="new_my_info_phone_edit_code_hint">请输入短信验证码</string>
+    <string name="new_my_info_phone_edit_code">重发</string>
+    <string name="new_my_info_phone_edit_code_send_hint">%s秒后可重发</string>
+    <string name="new_my_info_phone_edit_finish">完成</string>
+    <string name="new_my_info_phone_edit_code_empty">请输入验证码</string>
+    <string name="new_my_info_phone_edit_title">修改手机</string>
+    <string name="new_my_info_email_edit_title">修改邮箱</string>
+    <string name="new_my_info_email_edit_empty_hint">邮箱不能为空</string>
+    <string name="new_my_info_email_edit_lab">邮箱</string>
+    <string name="new_my_info_email_edit_hint">请输入新的邮箱地址</string>
+    <string name="new_my_info_my_topic">PERSON_MY_TOPIC</string>
+    <string name="new_my_info_my_live">PERSON_MY_LIVE</string>
+    <string name="new_my_info_edit_phone">我们已经发送校验码到您的手机</string>
+
+
+    <!-- 首页 -->
+    <string name="new_home_model_study_num">%s人已学习</string>
+
+    <!--分享模块-->
+    <string name="share_ask">问道</string>
+    <string name="share_wechat">微信好友</string>
+    <string name="share_friends">朋友圈</string>
+    <string name="share_sina">新浪微博</string>
+    <string name="share_zone">QQ空间</string>
+    <string name="share_message">短信</string>
+    <string name="share_tencent_blog">腾讯微博</string>
+    <string name="share_install_sina">请先安装微博</string>
+    <string name="share_install_zone">请先安装QQ空间</string>
+    <string name="share_drawable_null">图片不能为空</string>
+    <string name="share_install_wechat">请先安装微信</string>
+
+
+    <!-- 问吧   start -->
+    <string name="question_fragment_class_packname">com.netschina.mlds.business.question.view</string>
+    <string name="question_tab_home_name">问道</string>
+    <string name="question_tab_expert_name">专家</string>
+    <string name="question_tab_topic_name">话题</string>
+    <string name="question_tab_more_name">更多</string>
+    <string name="question_tab_home_class">com.netschina.mlds.business.question.view.home.QHomeFragment</string>
+    <string name="question_tab_expert_class">com.netschina.mlds.business.question.view.expert.QExpertFragment</string>
+    <string name="question_tab_topic_class">com.netschina.mlds.business.question.view.topic.QTopicFragment</string>
+    <string name="question_tab_more_class">com.netschina.mlds.business.question.view.more.QMoreFragment</string>
+    <string name="question_tab_home_tag">QHome</string>
+    <string name="question_tab_expert_tag">QExpert</string>
+    <string name="question_tab_topic_tag">QTopic</string>
+    <string name="question_tab_more_tag">QMore</string>
+    <string name="question_tab_home_creator_name">%s提出的问题</string>
+    <string name="question_tab_home_creator_name2">%s专家的分享</string>
+    <string name="question_tab_home_creator_name3">%s学员的讨论</string>
+    <string name="question_tab_home_creator_name4">%s专家的讨论</string>
+    <string name="question_tab_home_creator_name5">管理员把该分享设置为精华</string>
+    <string name="question_tab_home_creator_name6">管理员把该分享置顶</string>
+    <string name="question_tab_home_creator_name7">管理员把该问题设置为精华</string>
+    <string name="question_tab_home_creator_name8">管理员把该问题置顶</string>
+    <string name="question_tab_home_creator_name9">管理员把该讨论设置为精华</string>
+    <string name="question_tab_home_creator_name10">管理员把该讨论置顶</string>
+    <string name="question_tab_home_creator_name11">%s发布的分享</string>
+    <string name="question_tab_home_creator_name12">%s专家的分享</string>
+    <string name="question_tab_home_creator_name13">%s分享的课程</string>
+    <string name="question_tab_home_creator_name14">%s分享的学习路径</string>
+    <string name="question_tab_home_creator_name15">%s分享的知识</string>
+    <string name="question_tab_home_creator_name16">%s分享的班级</string>
+    <string name="question_tab_home_creator_name17">%s分享的调研</string>
+    <string name="question_tab_home_creator_name18">%s分享的微分大赛</string>
+    <string name="question_tab_home_creator_name19">%s分享的考试</string>
+    <string name="question_tab_home_creator_name20">%s分享的专题</string>
+    <string name="question_tab_home_creator_name21">%s分享的直播</string>
+    <string name="question_tab_home_attent_cancle">取消关注</string>
+    <string name="question_tab_home_attent_add">关注</string>
+    <string name="question_tab_home_zan_cancle">取消赞(%s)</string>
+    <string name="question_tab_home_zan_add">赞(%s)</string>
+    <string name="question_tab_home_discuss_num">讨论(%s)</string>
+    <string name="question_tab_home_discuss">添加讨论</string>
+    <string name="question_tab_home_replay_num">回复(%s)</string>
+    <string name="question_tab_home_replay_num1">回复</string>
+    <string name="question_tab_home_replay">添加回复</string>
+    <string name="question_tab_home_lab_jing">精</string>
+    <string name="question_tab_home_lab_ding">顶</string>
+    <string name="question_tab_home_lab_zhuan">专</string>
+    <string name="question_tab_home_care_num">%s关注</string>
+    <string name="question_tab_home_jing_num">%s精品</string>
+    <string name="question_detail_question_discuss_class_package">com.netschina.mlds.business.question.view.question</string>
+    <string name="question_detail_discuss_tab_discuss">讨论(%s)</string>
+    <string name="question_detail_discuss_tab_attention">关注(%s)</string>
+    <string name="question_detail_discuss_class_discuss">QQuestionDisFragment</string>
+    <string name="question_detail_discuss_class_attention">QQuestionAttFragment</string>
+    <string name="question_detail_discuss_tag_discuss">QUESTION_DETAIL_Q_DIS</string>
+    <string name="question_detail_discuss_tag_attention">QUESTION_DETAIL_Q_Att</string>
+    <string name="question_detail_discuss_replay_class_package">com.netschina.mlds.business.question.view.discuss</string>
+    <string name="question_detail_replay_tab_replay">回复(%s)</string>
+    <string name="question_detail_replay_tab_zan">赞(%s)</string>
+    <string name="question_detail_replay_class_replay">QDiscussRepFragment</string>
+    <string name="question_detail_replay_class_zan">QDiscussZanFragment</string>
+    <string name="question_detail_replay_tag_replay">DISCUSS_DETAIL_Q_REP</string>
+    <string name="question_detail_replay_tag_zan">DISCUSS_DETAIL_Q_ZAN</string>
+    <string name="question_detail_expert_class_package">com.netschina.mlds.business.question.view.expert</string>
+    <string name="question_detail_expert_tab_discuss">专家回答</string>
+    <string name="question_detail_expert_tab_share">专家分享</string>
+    <string name="question_detail_expert_tab_attention">关注TA的人</string>
+    <string name="question_detail_expert_tab_discuss_my">问题回答</string>
+    <string name="question_detail_expert_tab_discuss_my_wait">等我回答</string>
+    <string name="question_detail_expert_tab_discuss_my_finish">已回答的问题</string>
+    <string name="question_detail_expert_tab_share_my">我的分享</string>
+    <string name="question_detail_expert_tab_attention_my">关注我的人</string>
+    <string name="question_detail_expert_class_discuss">QExpertDisFragment</string>
+    <string name="question_detail_expert_class_discuss_my">QExpertMyDisFragment</string>
+    <string name="question_detail_expert_class_discuss_my_wait">QExpertMyDisWaitFragment</string>
+    <string name="question_detail_expert_class_discuss_my_finish">QExpertMyDisFinishFragment</string>
+    <string name="question_detail_expert_class_share">QExpertShaFragment</string>
+    <string name="question_detail_expert_class_attention">QExpertAttFragment</string>
+    <string name="question_detail_expert_tag_discuss">EXPERT_DETAIL_Q_DIS</string>
+    <string name="question_detail_expert_tag_discuss_my">EXPERT_DETAIL_Q_DIS_MY</string>
+    <string name="question_detail_expert_tag_discuss_my_wait">EXPERT_DETAIL_Q_DIS_MY_WAIT</string>
+    <string name="question_detail_expert_tag_discuss_my_finish">EXPERT_DETAIL_Q_DIS_MY_FINISH</string>
+    <string name="question_detail_expert_tag_share">EXPERT_DETAIL_Q_SHA</string>
+    <string name="question_detail_expert_tag_share_my">EXPERT_DETAIL_Q_SHA_MY</string>
+    <string name="question_detail_expert_tag_attention">EXPERT_DETAIL_Q_ATT</string>
+    <string name="question_detail_topic_class_package">com.netschina.mlds.business.question.view.topic</string>
+    <string name="question_detail_topic_tab_dis_new">最新动态</string>
+    <string name="question_detail_topic_tab_dis_hot">热门问题</string>
+    <string name="question_detail_topic_tab_dis_share">专家分享</string>
+    <string name="question_detail_topic_tab_dis_wait">等待回答</string>
+    <string name="question_detail_topic_class_dis_new">QTopicNewFragment</string>
+    <string name="question_detail_topic_class_dis_hot">QTopicHotFragment</string>
+    <string name="question_detail_topic_class_dis_share">QTopicShareFragment</string>
+    <string name="question_detail_topic_class_dis_wait">QTopicWaitFragment</string>
+    <string name="question_detail_topic_tag_dis_new">TOPIC_DETAIL_Q_NEW</string>
+    <string name="question_detail_topic_tag_dis_hot">TOPIC_DETAIL_Q_HOT</string>
+    <string name="question_detail_topic_tag_dis_share">TOPIC_DETAIL_Q_SHA</string>
+    <string name="question_detail_topic_tag_dis_wait">TOPIC_DETAIL_Q_WAIT</string>
+    <string name="question_activity_more_view_share">分享到</string>
+    <string name="question_search_empty_hint">请输入搜索内容</string>
+    <string name="question_search_package_path">com.netschina.mlds.business.question.view.search</string>
+    <string name="question_search_result_content_tab">内容</string>
+    <string name="question_search_result_topic_tab">话题</string>
+    <string name="question_search_result_expert_tab">专家</string>
+    <string name="question_search_result_content_class">QSearchContentFragment</string>
+    <string name="question_search_result_topic_class">QSearchTopicFragment</string>
+    <string name="question_search_result_expert_class">QSearchExpertFragment</string>
+    <string name="question_search_result_content_tag">QSEARCHCONTENT</string>
+    <string name="question_search_result_topic_tag">QSEARCHTOPIC</string>
+    <string name="question_search_result_expert_tag">QSEARCHEXPERT</string>
+    <string name="question_model_package_path">com.netschina.mlds.business.question.view.home</string>
+    <string name="question_model_home_attention_tab">我关注的</string>
+    <string name="question_model_home_allquestion_tab">所有问题</string>
+    <string name="question_model_home_attention_class">QHomeAttentionFragment</string>
+    <string name="question_model_home_allquestion_class">QHomeAllQuestionFragment</string>
+    <string name="question_model_home_attention_tag">QHOMEATTENTION</string>
+    <string name="question_model_home_allquestion_tag">QHOMEALLQUESTION</string>
+    <string name="question_model_home_allquestion_quetion_tab">问题</string>
+    <string name="question_model_home_allquestion_share_tab">专家分享</string>
+    <string name="question_model_home_allquestion_question_class">QAllQuestionBaseFragment</string>
+    <string name="question_model_home_allquestion_share_class">QAllQuestionBaseFragment</string>
+    <string name="question_model_home_allquestion_question_tag">QALLQUESTIONAll</string>
+    <string name="question_model_home_allquestion_share_tag">QALLQUESTIONSHARE</string>
+    <string name="question_activity_more_attention_title">我关注的</string>
+    <string name="question_model_more_package_path">com.netschina.mlds.business.question.view.more</string>
+    <string name="question_model_more_content_tab">内容</string>
+    <string name="question_model_more_topic_tab">话题</string>
+    <string name="question_model_more_expert_tab">专家</string>
+    <string name="question_model_more_content_class">QAttentionContentFragment</string>
+    <string name="question_model_more_topic_class">QAttentionTopicFragment</string>
+    <string name="question_model_more_expert_class">QAttentionExpertFragment</string>
+    <string name="question_model_more_content_tag">QMOREATTETIONCONTENT</string>
+    <string name="question_model_more_topic_tag">QMOREATTENTIONTOPIC</string>
+    <string name="question_model_more_expert_tag">QMOREATTENTIONEXPERT</string>
+    <string name="question_model_more_message_atme_tab">回复我的</string>
+    <string name="question_model_more_message_meat_tab">我的回复</string>
+    <string name="question_model_more_message_atme_class">QMessageAtMeFragment</string>
+    <string name="question_model_more_message_meat_class">QMessageMeAtFragment</string>
+    <string name="question_model_more_message_atme_tag">QMOREMESSAGEATME</string>
+    <string name="question_model_more_message_meat_tag">QMOREMESSAGEMEAT</string>
+    <string name="question_model_more_ask_tag">QMOREASKFRAG</string>
+    <string name="question_model_more_collect_tag">QMORECOLLECTFRAG</string>
+    <string name="question_activity_more_message_title">消息</string>
+    <string name="question_activity_more_ask_title">我的提问</string>
+    <string name="question_activity_more_collect_title">我的收藏</string>
+    <string name="question_detail_question_attention_cancle">取消关注</string>
+    <string name="question_detail_question_attention_add">关注问题</string>
+    <string name="question_detail_question_expert_share_bt">我要分享</string>
+    <string name="question_detail_question_title">问题详情</string>
+    <string name="question_detail_discuss_title">讨论详情</string>
+    <string name="question_detail_expert_attention_add">＋关注</string>
+    <string name="question_detail_expert_attention_cancle">取消关注</string>
+    <string name="question_tab_more_admin_topic_number">你共管理%s个话题</string>
+    <string name="question_tab_more_admin_topic_tag">MORE_TOPIC_ADMIN</string>
+    <string name="question_activity_more_topic_title">我的管理</string>
+    <string name="question_recom_empty_topic_hint">请至少关注一个话题！</string>
+    <string name="question_recom_empty_expert_hint">请至少关注一个专家！</string>
+    <string name="question_activity_more_view_top">置顶</string>
+    <string name="question_activity_more_view_top_cancle">取消置顶</string>
+    <string name="question_activity_more_view_cream">设置精华</string>
+    <string name="question_activity_more_view_cream_cancle">取消精华</string>
+    <string name="question_activity_more_view_closed">关闭问题</string>
+    <string name="question_activity_more_view_add">补充内容</string>
+    <string name="question_activity_more_view_del">删除问题</string>
+    <string name="question_activity_more_view_closed_sha">关闭问题</string>
+    <string name="question_activity_more_view_del_sha">删除问题</string>
+    <string name="question_activity_more_view_del_dis">删除讨论</string>
+    <string name="question_activity_more_view_del_dis2">删除</string>
+    <string name="question_activity_more_view_del_rep">删除回复</string>
+    <string name="question_activity_more_view_collect">收藏</string>
+    <string name="question_activity_more_view_collect_cancle">取消收藏</string>
+    <string name="question_activity_more_view_report">举报</string>
+    <string name="question_activity_more_view_admin">管理</string>
+    <string name="question_activity_more_view_cancle">取 消</string>
+    <string name="question_more_report_title">举报</string>
+    <string name="question_home_expert_item_attent_add">＋关注</string>
+    <string name="question_home_expert_item_attent_cancle">取消关注</string>
+    <string name="question_home_discuss_item_collect_add">赞</string>
+    <string name="question_home_discuss_item_collect_cancle">取消赞</string>
+    <string name="question_detail_question_time">提问时间：%s</string>
+    <string name="question_detail_discuss_time">讨论时间：%s</string>
+    <string name="question_detail_quesiton_add_content_lab">补充内容：</string>
+    <string name="question_home_attent_topic_title">我们向您推荐的话题：</string>
+    <string name="question_detail_question_discuss_txt">添加讨论</string>
+    <string name="question_detail_discuss_reply_txt">添加回复</string>
+    <string name="question_expert_topic_all_lab">全部</string>
+    <string name="question_detail_topic_dis_order_dis">讨论</string>
+    <string name="question_detail_topic_dis_order_jing">精品</string>
+    <string name="question_detail_topic_dis_order_attent">关注</string>
+    <string name="question_collect_success_hint">收藏成功！</string>
+    <string name="question_collect_fail_hint">收藏失败！</string>
+    <string name="question_collect_success_cancle_hint">取消收藏成功！</string>
+    <string name="question_collect_fail_cancle_hint">取消收藏失败！</string>
+    <string name="question_jing_success_hint">设置精华成功！</string>
+    <string name="question_jing_fail_hint">设置精华失败！</string>
+    <string name="question_jing_success_cancle_hint">取消精华成功！</string>
+    <string name="question_jing_fail_cancle_hint">取消精华失败！</string>
+    <string name="question_ding_success_hint">设置置顶成功！</string>
+    <string name="question_ding_fail_hint">设置置顶失败！</string>
+    <string name="question_ding_success_cancle_hint">取消置顶成功！</string>
+    <string name="question_ding_fail_cancle_hint">取消置顶失败！</string>
+    <string name="question_closed_success_hint">关闭问题成功！</string>
+    <string name="question_closed_fail_hint">关闭问题失败！</string>
+    <string name="question_del_dis_success_hint">删除成功！</string>
+    <string name="question_del_dis_fail_hint">删除失败！</string>
+    <string name="question_del_que_success_hint">删除问题成功！</string>
+    <string name="question_del_que_fail_hint">删除问题失败！</string>
+    <string name="question_question_closed_hint">抱歉，该问题已关闭，无法参与讨论或回复！</string>
+    <string name="question_expert_my_question_check_hint">审核中</string>
+    <string name="question_expert_my_question_reject_hint">被拒绝</string>
+
+    <string name="question_report_type_empty_hint">暂无举报类型！</string>
+    <string name="question_report_submit_txt">提交</string>
+    <string name="question_report_no_choose_type_hint">请选择举报类型！</string>
+    <string name="question_report_submit_success_hint">感谢您的举报！</string>
+    <string name="question_report_submit_fail_hint">举报失败！</string>
+
+    <string name="question_select">选择话题</string>
+    <string name="question_search">搜索</string>
+    <string name="question_centrality_edit_editbut_save_hint_title">您填写的内容尚未保存，确定保存吗？</string>
+    <string name="question_discuss_replay_hint">请输入你的回复内容</string>
+    <string name="question_discuss_input_hint">请输入你讨论的内容</string>
+    <string name="qiestion_input_content_hint">填写需要补充的内容</string>
+    <string name="qiestion_select_only_one">话题(至少添加一个)</string>
+    <string name="qiestion_select_max">最多选择三个话题</string>
+    <!-- 问吧   end -->
+
+
+    <string name="question_text_count_max_title">%30</string>
+    <string name="question_text_count_max_content">%3000</string>
+    <string name="question_text_count_max_detail_content">问题详细描述不能为空</string>
+    <string name="question_activity_more_view_del2">删除</string>
+    <string name="question_del_que_success_hint2">删除成功</string>
+    <string name="question_detail_question_del_question_hint">确定要删除吗？</string>
+    <string name="question_detail_question_del_question_hint3">是否确定关闭该问题，关闭后其他用户不能进行回复！</string>
+
+    <string name="question_detail_expert_my_title">我是专家</string>
+    <string name="question_detail_expert_info_attent_num">关注TA的人</string>
+    <string name="question_detail_expert_info_answer_num">TA的回答</string>
+    <string name="question_detail_expert_info_share_num">TA的分享</string>
+    <string name="question_detail_expert_my_info_attent_num">关注我的人</string>
+    <string name="question_detail_expert_my_info_answer_num">我的回答</string>
+    <string name="question_detail_expert_my_info_share_num">我的分享</string>
+    <string name="question_operate_del_question_hint">该问题存在讨论，不能删除！</string>
+
+    <string name="question_text_count_max_detail_title">标题不能为空</string>
+    <string name="question_text_title_hint_share">填写你分享的标题(必填)</string>
+    <string name="question_text_content_hint_share">填写你的分享详细描述</string>
+    <string name="question_text_title_hint">填写你的问题(必填)</string>
+    <string name="question_text_content_hint">填写详细描述问题，便于解答</string>
+    <string name="question_share">分享</string>
+    <string name="question_article_title_hint">标题(必填)</string>
+    <string name="question_article_content_hint">详细描述</string>
+    <string name="question_article_null">暂无简介</string>
+    <string name="question_detail_discuss_from_lab">来自：</string>
+    <string name="question_detail_question_topic_lab">所属话题：</string>
+    <string name="question_ask_title_count">&#160;&#160;&#160;&#160;&#160;&#160;&#160;%条讨论</string>
+    <string name="question_home_attent_expert_title">推荐专家</string>
+    <string name="question_home_attent_content_title">最新动态</string>
+    <string name="question_replay_name">回复%</string>
+    <string name="question_send_success">分享成功</string>
+    <string name="question_send_error">分享失败</string>
+    <string name="question_share_discuss">讨论</string>
+    <string name="question_share_quesstion">问题</string>
+    <string name="question_share_actical">暂无描述</string>
+    <string name="delete_suc">删除成功</string>
+    <string name="course_point">你对该课程评%s分</string>
+    <string name="doc_point">你对该知识评%s分</string>
+
+    <!-- 问吧   end -->
+
+    <!--时间-->
+    <string name="hour_before">小时前</string>
+    <string name="minute_before">分钟前</string>
+    <string name="question_detail_file_no_fit_hint">暂不支持此附件格式播放!</string>
+    <string name="question_detail_file_empty_hint">该附件已失效！</string>
+    <string name="question_index_welcome_hint">欢迎进入问道！为更好的为您提供\n帮助，建议您先关注您感兴趣的话题和专家吧</string>
+    <string name="question_index_next_btn">下一步</string>
+    <string name="question_index_last_btn">上一步</string>
+    <string name="question_index_attent_sure_btn">关注并进入问道</string>
+    <string name="course_detail_note_add_hint">添加笔记</string>
+    <string name="course_detail_discuss_add_hint">添加讨论</string>
+    <string name="question_success_send_check_hint">发布成功，等待管理员审核！</string>
+    <string name="train_question_tab_not_study_exam_hint">您不是学员身份,不能参加考试,谢谢</string>
+
+
+</resources>
